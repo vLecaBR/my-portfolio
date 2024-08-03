@@ -20,12 +20,12 @@ const Glow = styled.div`
   position: fixed;
   width: 400px; /* Aumenta ainda mais o tamanho */
   height: 400px; /* Aumenta ainda mais o tamanho */
-  background: radial-gradient(circle, rgba(100, 255, 218, 0.04) 0%, rgba(100, 255, 218, 0) 100%);
+  background: radial-gradient(circle, rgba(100, 255, 218, 0.01) 0%, rgba(100, 255, 218, 0) 100%);
   border-radius: 50%;
   pointer-events: none;
   transform: translate(-50%, -50%);
   transition: background 0.3s ease;
-  z-index: 1;
+  z-index: 0;
 `;
 
 export default MouseGlow;

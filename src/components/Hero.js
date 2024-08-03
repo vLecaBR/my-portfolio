@@ -25,6 +25,7 @@ const Section = styled.section`
   padding: 0 100px;
   background-color: #0a192f;
   color: #ccd6f6;
+  z-index: 1;
 `;
 
 const Intro = styled.h1`
