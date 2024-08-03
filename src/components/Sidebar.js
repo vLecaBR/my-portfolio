@@ -2,19 +2,20 @@ import React, { useState, useEffect } from 'react';
 import styled from 'styled-components';
 
 const Sidebar = () => {
-  const [activeSection, setActiveSection] = useState('about');
+  const [activeSection, setActiveSection] = useState('home');
 
   const handleScroll = () => {
-    const sections = ['about', 'experience', 'work', 'contact'];
-    let currentSection = 'about';
+    const sections = ['home', 'about', 'experience', 'work', 'contact'];
+    let currentSection = 'home';
 
     for (let i = 0; i < sections.length; i++) {
       const element = document.getElementById(sections[i]);
-      const rect = element.getBoundingClientRect();
-
-      if (rect.top <= window.innerHeight / 2 && rect.bottom >= window.innerHeight / 2) {
-        currentSection = sections[i];
-        break;
+      if (element) {
+        const rect = element.getBoundingClientRect();
+        if (rect.top <= window.innerHeight / 2 && rect.bottom >= window.innerHeight / 2) {
+          currentSection = sections[i];
+          break;
+        }
       }
     }
 
@@ -26,12 +27,50 @@ const Sidebar = () => {
     return () => window.removeEventListener('scroll', handleScroll);
   }, []);
 
+  const handleNavItemClick = (section) => {
+    if (section === 'home') {
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    } else {
+      const element = document.getElementById(section);
+      if (element) {
+        element.scrollIntoView({ behavior: 'smooth' });
+      }
+    }
+    setActiveSection(section);
+  };
+
   return (
     <SidebarContainer>
-      <NavItem isActive={activeSection === 'about'} href="#about">About</NavItem>
-      <NavItem isActive={activeSection === 'experience'} href="#experience">Experience</NavItem>
-      <NavItem isActive={activeSection === 'work'} href="#work">Work</NavItem>
-      <NavItem isActive={activeSection === 'contact'} href="#contact">Contact</NavItem>
+      <NavItem
+        isActive={activeSection === 'home'}
+        onClick={() => handleNavItemClick('home')}
+      >
+        Home
+      </NavItem>
+      <NavItem
+        isActive={activeSection === 'about'}
+        onClick={() => handleNavItemClick('about')}
+      >
+        About
+      </NavItem>
+      <NavItem
+        isActive={activeSection === 'experience'}
+        onClick={() => handleNavItemClick('experience')}
+      >
+        Experience
+      </NavItem>
+      <NavItem
+        isActive={activeSection === 'work'}
+        onClick={() => handleNavItemClick('work')}
+      >
+        Work
+      </NavItem>
+      <NavItem
+        isActive={activeSection === 'contact'}
+        onClick={() => handleNavItemClick('contact')}
+      >
+        Contact
+      </NavItem>
     </SidebarContainer>
   );
 };
@@ -43,13 +82,12 @@ const SidebarContainer = styled.div`
   transform: translateY(-50%);
   display: flex;
   flex-direction: column;
-  background-color: #0a192f;
   padding: 20px;
   border-radius: 8px;
 `;
 
-const NavItem = styled.a`
-  text-decoration: none;
+const NavItem = styled.div`
+  cursor: pointer;
   color: ${props => (props.isActive ? '#64ffda' : '#8892b0')};
   font-size: 1em;
   margin: 10px 0;

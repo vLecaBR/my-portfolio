@@ -8,7 +8,7 @@ const Work = () => (
       <ProjectDetails>
         <ProjectContentWrapper>
           <ProjectImageWrapper>
-            <ProjectImage src="https://github.com/vLecaBR.png" alt="Projeto de Tecnologia para Atletismo" />
+            <ProjectImage src="https://github.com/vLecaBR.png" alt="foto " />
           </ProjectImageWrapper>
           <ProjectContent>
             <ProjectTitle>Technology Athletics Website</ProjectTitle>
@@ -20,10 +20,10 @@ const Work = () => (
               efficiency and better control over the sales process.
             </ProjectDescription>
             <Skills>
-              <Skill>React</Skill>
+              <Skill>JavaScript</Skill>
+              <Skill>Python</Skill>
               <Skill>HTML</Skill>
               <Skill>CSS</Skill>
-              <Skill>JavaScript</Skill>
             </Skills>
             <ProjectLink href="#" target="_blank" rel="noopener noreferrer">View Project</ProjectLink>
           </ProjectContent>
