@@ -7,10 +7,10 @@ const Hero = () => (
     <Name>Victor Leça.</Name>
     <Subtitle>I build things for the web.</Subtitle>
     <Description>
-    I am a Computer Science student with 3 years of experience in multinational companies, focusing on technical support and infrastructure since 2021. I have a strong passion for technology and development, particularly in the field of web development.
-I have skills in JavaScript, HTML, CSS, ReactJS, Svelte Figma, Python, and C++.
-Additionally, I am actively learning and enhancing my knowledge in popular frameworks and libraries such as Angular and ReactJS.
-I am known for being agile, a quick and consistent learner. I am always motivated to overcome obstacles and embrace new challenges.
+    A young computer science student focused on web development, with professional experience primarily in technical support. <br></br>
+    Currently seeking experience in the web development field. <br></br>
+    Quick to learn and adept at working with the latest web technologies, such as React.JS, HTML5, CSS3, SASS, Figma, Svelte, Python, and more. <br></br>
+    Always eager to learn more.
     </Description>
     <Button href="https://www.linkedin.com/in/victor-leca-vlkbr/">Check out my Linkedin</Button>
   </Section>

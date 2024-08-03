@@ -3,10 +3,11 @@ import Header from './components/Header';
 import Hero from './components/Hero';
 import About from './components/About';
 import Experience from './components/Experience';
-import Work from './components/Work';
+import Projects from './components/Projects';
 import Contact from './components/Contact';
 import Sidebar from './components/Sidebar';
 import MouseGlow from './components/MouseGlow';
+import { GoProjectSymlink } from 'react-icons/go';
 
 const App = () => (
   <>
@@ -15,7 +16,7 @@ const App = () => (
     <Hero id="home" />
     <About />
     <Experience />
-    <Work />
+    <Projects />
     <Contact />
     <Sidebar />
   </>

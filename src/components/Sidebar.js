@@ -5,13 +5,14 @@ const Sidebar = () => {
   const [activeSection, setActiveSection] = useState('home');
 
   const handleScroll = () => {
-    const sections = ['home', 'about', 'experience', 'work', 'contact'];
+    const sections = ['home', 'about', 'experience', 'projects', 'contact'];
     let currentSection = 'home';
 
     for (let i = 0; i < sections.length; i++) {
       const element = document.getElementById(sections[i]);
       if (element) {
         const rect = element.getBoundingClientRect();
+        console.log(`Section: ${sections[i]}, Top: ${rect.top}, Bottom: ${rect.bottom}`);
         if (rect.top <= window.innerHeight / 2 && rect.bottom >= window.innerHeight / 2) {
           currentSection = sections[i];
           break;
@@ -19,6 +20,7 @@ const Sidebar = () => {
       }
     }
 
+    console.log(`Current Section: ${currentSection}`);
     setActiveSection(currentSection);
   };
 
@@ -60,10 +62,10 @@ const Sidebar = () => {
         Experience
       </NavItem>
       <NavItem
-        isActive={activeSection === 'work'}
-        onClick={() => handleNavItemClick('work')}
+        isActive={activeSection === 'projects'}
+        onClick={() => handleNavItemClick('projects')}
       >
-        Work
+        Projects
       </NavItem>
       <NavItem
         isActive={activeSection === 'contact'}

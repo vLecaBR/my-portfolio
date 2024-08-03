@@ -1,9 +1,9 @@
 import React from 'react';
 import styled from 'styled-components';
 
-const Work = () => (
-  <Section id="work">
-    <Title>Work</Title>
+const Projects = () => (
+  <Section id="projects">
+    <Title>Projects</Title>
     <Project>
       <ProjectDetails>
         <ProjectContentWrapper>
@@ -25,7 +25,7 @@ const Work = () => (
               <Skill>HTML</Skill>
               <Skill>CSS</Skill>
             </Skills>
-            <ProjectLink href="#" target="_blank" rel="noopener noreferrer">View Project</ProjectLink>
+            <ProjectLink href="https://github.com/Lu4head/Site_Tec_Barao" target="_blank" rel="noopener noreferrer">View Project</ProjectLink>
           </ProjectContent>
         </ProjectContentWrapper>
       </ProjectDetails>
@@ -130,4 +130,4 @@ const ProjectLink = styled.a`
   }
 `;
 
-export default Work;
+export default Projects;
