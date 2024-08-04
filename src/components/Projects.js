@@ -22,15 +22,41 @@ const Projects = () => (
             <Skills>
               <Skill>JavaScript</Skill>
               <Skill>Python</Skill>
-              <Skill>HTML</Skill>
-              <Skill>CSS</Skill>
+              <Skill>HTML5</Skill>
+              <Skill>CSS3</Skill>
             </Skills>
             <ProjectLink href="https://github.com/Lu4head/Site_Tec_Barao" target="_blank" rel="noopener noreferrer">View Project</ProjectLink>
           </ProjectContent>
         </ProjectContentWrapper>
       </ProjectDetails>
     </Project>
-    {/* Adicione outros projetos aqui */}
+    <Project>
+      <ProjectDetails>
+        <ProjectContentWrapper>
+          <ProjectImageWrapper>
+          <ProjectImage src={require('./img/LinkHub.png')} alt="foto" />
+          </ProjectImageWrapper>
+          <ProjectContent>
+            <ProjectTitle>Link Hub</ProjectTitle>
+            <ProjectDescription>
+            I did this project alone, with the intention of offering a free service to people 
+            who cannot afford it or who might prefer to invest their money in other ways for 
+            their business or personal page. <br></br>
+            The project consists of a website that gathers all 
+            your important links in one place with easy access. You just need the person to click 
+            on the link and see, for example, your sales link, Instagram, GitHub, etc. 
+            </ProjectDescription>
+            <Skills>
+              <Skill>JavaScript</Skill>
+              <Skill>HTML5</Skill>
+              <Skill>CSS3</Skill>
+              <Skill>Git and Github</Skill>
+            </Skills>
+            <ProjectLink href="https://github.com/vLecaBR/Projeto-Link-Hub" target="_blank" rel="noopener noreferrer">View Project</ProjectLink>
+          </ProjectContent>
+        </ProjectContentWrapper>
+      </ProjectDetails>
+    </Project>
   </Section>
 );
 
