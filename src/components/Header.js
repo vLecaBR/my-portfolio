@@ -1,34 +1,59 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import styled from 'styled-components';
 import { FaGithub, FaLinkedin, FaInstagram } from 'react-icons/fa';
 
-const Header = () => (
-  <Nav>
-    <Logo>VL</Logo>
-    <Menu>
-      <MenuItem href="hhttps://github.com/vLecaBR" target="_blank" rel="noopener noreferrer">
-        <FaGithub size={24} />
-      </MenuItem>
-      <MenuItem href="https://www.linkedin.com/in/victor-leça-040a021b9/" target="_blank" rel="noopener noreferrer">
-        <FaLinkedin size={24} />
-      </MenuItem>
-      <MenuItem href="https://www.instagram.com/vlecabr/" target="_blank" rel="noopener noreferrer">
-        <FaInstagram size={24} />
-      </MenuItem>
-      {/* <ResumeButton href="#">Resume</ResumeButton> */}
-    </Menu>
-  </Nav>
-);
+const Header = () => {
+  const [visible, setVisible] = useState(true);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      setVisible(window.scrollY < 50);
+    };
+
+    window.addEventListener('scroll', handleScroll);
+    return () => window.removeEventListener('scroll', handleScroll);
+  }, []);
+
+  return (
+    <Nav visible={visible}>
+      <Logo>B</Logo>
+      <Menu>
+        <MenuItem href="https://github.com/vLecaBR" target="_blank" rel="noopener noreferrer">
+          <FaGithub size={24} />
+        </MenuItem>
+        <MenuItem href="https://www.linkedin.com/in/victor-leça-040a021b9/" target="_blank" rel="noopener noreferrer">
+          <FaLinkedin size={24} />
+        </MenuItem>
+        <MenuItem href="https://www.instagram.com/vlecabr/" target="_blank" rel="noopener noreferrer">
+          <FaInstagram size={24} />
+        </MenuItem>
+      </Menu>
+    </Nav>
+  );
+};
 
 const Nav = styled.nav`
   display: flex;
   justify-content: space-between;
+  align-items: center;
   padding: 20px 50px;
+  background-color: #0a192f;
+  color: #64ffda;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  opacity: ${({ visible }) => (visible ? 1 : 0)};
+  transform: translateY(${({ visible }) => (visible ? '0' : '-20px')});
+  transition: opacity 0.5s ease, transform 0.5s ease;
+  z-index: 1000;
 `;
 
 const Logo = styled.div`
-  font-size: 23px;
+  font-size: 24px;
   font-weight: bold;
+  border: 1px solid #64ffda;
+  padding: 10px;
+  border-radius: 5px;
 `;
 
 const Menu = styled.div`
@@ -37,17 +62,15 @@ const Menu = styled.div`
 `;
 
 const MenuItem = styled.a`
-  margin: 0 15px;
-  color: #141414;
+  margin: 0 50px;
+  padding: 0px;
+  color: #64ffda;
   text-decoration: none;
-`;
+  transition: color 0.3s ease;
 
-const ResumeButton = styled.a`
-  padding: 8px 20px;
-  border: 1px solid #141414;
-  border-radius: 4px;
-  text-decoration: none;
-  color: #141414;
+  &:hover {
+    color: #fff;
+  }
 `;
 
 export default Header;
