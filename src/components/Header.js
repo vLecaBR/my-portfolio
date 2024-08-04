@@ -16,7 +16,7 @@ const Header = () => {
 
   return (
     <Nav visible={visible}>
-      <Logo>B</Logo>
+      <Logo>VL</Logo>
       <Menu>
         <MenuItem href="https://github.com/vLecaBR" target="_blank" rel="noopener noreferrer">
           <FaGithub size={24} />
@@ -45,7 +45,7 @@ const Nav = styled.nav`
   opacity: ${({ visible }) => (visible ? 1 : 0)};
   transform: translateY(${({ visible }) => (visible ? '0' : '-20px')});
   transition: opacity 0.5s ease, transform 0.5s ease;
-  z-index: 1000;
+  z-index: 1;
 `;
 
 const Logo = styled.div`
@@ -59,11 +59,12 @@ const Logo = styled.div`
 const Menu = styled.div`
   display: flex;
   align-items: center;
+  margin-right: 50px;
 `;
 
 const MenuItem = styled.a`
-  margin: 0 50px;
-  padding: 0px;
+  margin: 0 10px; 
+  padding: 0;
   color: #64ffda;
   text-decoration: none;
   transition: color 0.3s ease;

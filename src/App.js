@@ -7,7 +7,6 @@ import Projects from './components/Projects';
 import Contact from './components/Contact';
 import Sidebar from './components/Sidebar';
 import MouseGlow from './components/MouseGlow';
-import { GoProjectSymlink } from 'react-icons/go';
 
 const App = () => (
   <>
