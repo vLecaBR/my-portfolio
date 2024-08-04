@@ -4,6 +4,9 @@ import styled from 'styled-components';
 const Projects = () => (
   <Section id="projects">
     <Title>Projects</Title>
+
+    {/* SITE ATLETICA */}
+
     <Project>
       <ProjectDetails>
         <ProjectContentWrapper>
@@ -22,6 +25,8 @@ const Projects = () => (
             <Skills>
               <Skill>JavaScript</Skill>
               <Skill>Python</Skill>
+              <Skill>Django</Skill>
+              <Skill>Jazzmin</Skill>
               <Skill>HTML5</Skill>
               <Skill>CSS3</Skill>
             </Skills>
@@ -30,6 +35,9 @@ const Projects = () => (
         </ProjectContentWrapper>
       </ProjectDetails>
     </Project>
+
+    {/* LINK HUB */}
+
     <Project>
       <ProjectDetails>
         <ProjectContentWrapper>
@@ -57,6 +65,37 @@ const Projects = () => (
         </ProjectContentWrapper>
       </ProjectDetails>
     </Project>
+
+    {/* Primeiro projeto react */}
+
+    <Project>
+      <ProjectDetails>
+        <ProjectContentWrapper>
+          <ProjectImageWrapper>
+          <ProjectImage src={require('./img/LinkHub.png')} alt="foto" />
+          </ProjectImageWrapper>
+          <ProjectContent>
+            <ProjectTitle>Team Screen</ProjectTitle>
+            <ProjectDescription>
+            This project was created for learning purposes. It was my first project with React. 
+            Along with the lessons from a course, I built a team manager where you can predefine 
+            employees and their teams in the code, or you can create a new card. It’s also possible 
+            to create new teams. It's fully flexible and is meant only to display who your team is 
+            and what it looks like.
+            </ProjectDescription>
+            <Skills>
+              <Skill>ReactJS</Skill>
+              <Skill>JavaScript</Skill>
+              <Skill>HTML5</Skill>
+              <Skill>CSS3</Skill>
+              <Skill>Git and Github</Skill>
+            </Skills>
+            <ProjectLink href="https://github.com/vLecaBR/Projeto-Link-Hub" target="_blank" rel="noopener noreferrer">View Project</ProjectLink>
+          </ProjectContent>
+        </ProjectContentWrapper>
+      </ProjectDetails>
+    </Project>
+
   </Section>
 );
 
