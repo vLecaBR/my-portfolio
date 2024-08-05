@@ -29,6 +29,7 @@ const Projects = () => (
               <Skill>Jazzmin</Skill>
               <Skill>HTML5</Skill>
               <Skill>CSS3</Skill>
+              <Skill>Figma</Skill>
             </Skills>
             <ProjectLink href="https://github.com/Lu4head/Site_Tec_Barao" target="_blank" rel="noopener noreferrer">View Project</ProjectLink>
           </ProjectContent>
@@ -59,8 +60,9 @@ const Projects = () => (
               <Skill>HTML5</Skill>
               <Skill>CSS3</Skill>
               <Skill>Git and Github</Skill>
+              <Skill>Figma</Skill>
             </Skills>
-            <ProjectLink href="https://github.com/vLecaBR/Projeto-Link-Hub" target="_blank" rel="noopener noreferrer">View Project</ProjectLink>
+            <ProjectLink href="https://projeto-link-hub.vercel.app/" target="_blank" rel="noopener noreferrer">View Project</ProjectLink>
           </ProjectContent>
         </ProjectContentWrapper>
       </ProjectDetails>
@@ -75,7 +77,7 @@ const Projects = () => (
           <ProjectImage src={require('./img/LinkHub.png')} alt="foto" />
           </ProjectImageWrapper>
           <ProjectContent>
-            <ProjectTitle>Team Screen</ProjectTitle>
+            <ProjectTitle>Team Manager Screen</ProjectTitle>
             <ProjectDescription>
             This project was created for learning purposes. It was my first project with React. 
             Along with the lessons from a course, I built a team manager where you can predefine 
@@ -89,6 +91,7 @@ const Projects = () => (
               <Skill>HTML5</Skill>
               <Skill>CSS3</Skill>
               <Skill>Git and Github</Skill>
+              <Skill>Figma</Skill>
             </Skills>
             <ProjectLink href="https://github.com/vLecaBR/Projeto-Link-Hub" target="_blank" rel="noopener noreferrer">View Project</ProjectLink>
           </ProjectContent>

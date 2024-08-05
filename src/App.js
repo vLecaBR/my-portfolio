@@ -7,6 +7,7 @@ import Projects from './components/Projects';
 import Contact from './components/Contact';
 import Sidebar from './components/Sidebar';
 import MouseGlow from './components/MouseGlow';
+import { Analytics } from "@vercel/analytics/react"
 
 const App = () => (
   <>
@@ -18,6 +19,7 @@ const App = () => (
     <Projects />
     <Contact />
     <Sidebar />
+    <Analytics id="YVXQVZQ6Q3" />
   </>
 );
 
