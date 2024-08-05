@@ -5,13 +5,11 @@ const Projects = () => (
   <Section id="projects">
     <Title>Projects</Title>
 
-    {/* SITE ATLETICA */}
-
     <Project>
       <ProjectDetails>
         <ProjectContentWrapper>
           <ProjectImageWrapper>
-            <ProjectImage src="https://github.com/vLecaBR.png" alt="foto " />
+            <ProjectImage src={require('./img/sitetec.png')} alt="Technology Athletics Website" />
           </ProjectImageWrapper>
           <ProjectContent>
             <ProjectTitle>Technology Athletics Website</ProjectTitle>
@@ -37,23 +35,20 @@ const Projects = () => (
       </ProjectDetails>
     </Project>
 
-    {/* LINK HUB */}
-
     <Project>
       <ProjectDetails>
         <ProjectContentWrapper>
           <ProjectImageWrapper>
-          <ProjectImage src={require('./img/LinkHub.png')} alt="foto" />
+            <ProjectImage src={require('./img/LinkHub.png')} alt="Link Hub" />
           </ProjectImageWrapper>
           <ProjectContent>
             <ProjectTitle>Link Hub</ProjectTitle>
             <ProjectDescription>
-            I did this project alone, with the intention of offering a free service to people 
-            who cannot afford it or who might prefer to invest their money in other ways for 
-            their business or personal page. <br></br>
-            The project consists of a website that gathers all 
-            your important links in one place with easy access. You just need the person to click 
-            on the link and see, for example, your sales link, Instagram, GitHub, etc. 
+              I did this project alone, with the intention of offering a free service to people 
+              who cannot afford it or who might prefer to invest their money in other ways for 
+              their business or personal page. The project consists of a website that gathers all 
+              your important links in one place with easy access. You just need the person to click 
+              on the link and see, for example, your sales link, Instagram, GitHub, etc.
             </ProjectDescription>
             <Skills>
               <Skill>JavaScript</Skill>
@@ -68,22 +63,20 @@ const Projects = () => (
       </ProjectDetails>
     </Project>
 
-    {/* Primeiro projeto react */}
-
     <Project>
       <ProjectDetails>
         <ProjectContentWrapper>
           <ProjectImageWrapper>
-          <ProjectImage src={require('./img/LinkHub.png')} alt="foto" />
+            <ProjectImage src={require('./img/teammanager.png')} alt="Team Manager Screen" />
           </ProjectImageWrapper>
           <ProjectContent>
             <ProjectTitle>Team Manager Screen</ProjectTitle>
             <ProjectDescription>
-            This project was created for learning purposes. It was my first project with React. 
-            Along with the lessons from a course, I built a team manager where you can predefine 
-            employees and their teams in the code, or you can create a new card. It’s also possible 
-            to create new teams. It's fully flexible and is meant only to display who your team is 
-            and what it looks like.
+              This project was created for learning purposes. It was my first project with React. 
+              Along with the lessons from a course, I built a team manager where you can predefine 
+              employees and their teams in the code, or you can create a new card. It’s also possible 
+              to create new teams. It's fully flexible and is meant only to display who your team is 
+              and what it looks like.
             </ProjectDescription>
             <Skills>
               <Skill>ReactJS</Skill>
@@ -98,7 +91,6 @@ const Projects = () => (
         </ProjectContentWrapper>
       </ProjectDetails>
     </Project>
-
   </Section>
 );
 
@@ -117,7 +109,7 @@ const Title = styled.h2`
 const Project = styled.div`
   display: flex;
   justify-content: center;
-  margin-bottom: 20px;
+  margin-bottom: 40px; /* Aumenta o espaço entre os projetos */
   text-align: left;
 `;
 
@@ -126,7 +118,7 @@ const ProjectDetails = styled.div`
   padding: 20px;
   border-radius: 8px;
   width: 100%;
-  max-width: 700px;
+  max-width: 900px; /* Aumenta a largura máxima */
 `;
 
 const ProjectContentWrapper = styled.div`
@@ -135,8 +127,7 @@ const ProjectContentWrapper = styled.div`
 `;
 
 const ProjectImageWrapper = styled.div`
-  width: 40%;
-  height: auto;
+  flex: 0 0 40%; /* Ajusta a flexibilidade do contêiner de imagem */
   margin-right: 20px;
   overflow: hidden;
   border-radius: 8px;
@@ -149,9 +140,9 @@ const ProjectImage = styled.img`
 `;
 
 const ProjectContent = styled.div`
+  flex: 1 1 60%; /* Ajusta a flexibilidade do contêiner de conteúdo */
   display: flex;
   flex-direction: column;
-  width: 60%;
 `;
 
 const ProjectTitle = styled.h3`
