@@ -20,7 +20,7 @@ const Glow = styled.div`
   position: fixed;
   width: 400px; 
   height: 400px; 
-  background: radial-gradient(circle, rgba(100, 255, 218, 0.01) 0%, rgba(100, 255, 218, 0) 100%);
+  background: radial-gradient(circle, rgba(100, 255, 218, 0.03) 0%, rgba(100, 255, 218, 0) 100%);
   border-radius: 50%;
   pointer-events: none;
   transform: translate(-50%, -50%);
