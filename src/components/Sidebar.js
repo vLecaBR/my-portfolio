@@ -7,20 +7,21 @@ const Sidebar = () => {
   const handleScroll = () => {
     const sections = ['home', 'about', 'experience', 'projects', 'contact'];
     let currentSection = 'home';
-
-    for (let i = 0; i < sections.length; i++) {
-      const element = document.getElementById(sections[i]);
+    
+    sections.forEach(section => {
+      const element = document.getElementById(section);
       if (element) {
         const rect = element.getBoundingClientRect();
-        console.log(`Section: ${sections[i]}, Top: ${rect.top}, Bottom: ${rect.bottom}`);
-        if (rect.top <= window.innerHeight / 2 && rect.bottom >= window.innerHeight / 2) {
-          currentSection = sections[i];
-          break;
+        const sectionTop = rect.top + window.scrollY;
+        const sectionBottom = sectionTop + rect.height;
+        const windowHeight = window.innerHeight;
+        
+        if (window.scrollY + windowHeight / 2 >= sectionTop && window.scrollY + windowHeight / 2 <= sectionBottom) {
+          currentSection = section;
         }
       }
-    }
+    });
 
-    console.log(`Current Section: ${currentSection}`);
     setActiveSection(currentSection);
   };
 
@@ -84,22 +85,52 @@ const SidebarContainer = styled.div`
   transform: translateY(-50%);
   display: flex;
   flex-direction: column;
-  padding: 20px;
+  padding: 10px;
   border-radius: 8px;
+  background: #0a192f;
+  z-index: 1000;
+  max-width: 250px;
+  /* Centraliza a sidebar horizontalmente */
+  right: 50%;
+  transform: translate(50%, -50%);
+  @media (max-width: 768px) {
+    top: auto;
+    bottom: 0;
+    right: 50%;
+    transform: translateX(50%) translateY(0); /* Centraliza a sidebar na parte inferior da tela */
+    flex-direction: row;
+    padding: 5px;
+    overflow-x: auto;
+    max-width: 100%;
+    width: auto; /* Ajusta a largura para que se ajuste ao conteúdo */
+    justify-content: center; /* Centraliza o conteúdo horizontalmente */
+  }
 `;
 
 const NavItem = styled.div`
   cursor: pointer;
   color: ${props => (props.isActive ? '#64ffda' : '#8892b0')};
-  font-size: 1em;
-  margin: 10px 0;
-  padding: 10px 20px;
+  font-size: 0.9em;
+  margin: 5px 0;
+  padding: 8px 15px;
   border-left: ${props => (props.isActive ? '2px solid #64ffda' : '2px solid transparent')};
   transition: all 0.3s ease-in-out;
 
   &:hover {
     color: #64ffda;
     border-left: 2px solid #64ffda;
+  }
+
+  @media (max-width: 768px) {
+    margin: 0 5px;
+    padding: 8px;
+    border-left: none;
+    border-bottom: ${props => (props.isActive ? '2px solid #64ffda' : '2px solid transparent')};
+
+    &:hover {
+      border-left: none;
+      border-bottom: 2px solid #64ffda;
+    }
   }
 `;
 
