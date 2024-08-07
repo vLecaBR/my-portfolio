@@ -92,6 +92,7 @@ const SidebarContainer = styled.div`
   background: transparent; /* Remover o fundo da sidebar */
   z-index: 1000;
   max-width: 250px;
+  background-color: #112240;
 
   @media (max-width: 768px) {
     top: auto;
