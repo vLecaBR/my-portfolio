@@ -90,20 +90,18 @@ const SidebarContainer = styled.div`
   background: #0a192f;
   z-index: 1000;
   max-width: 250px;
-  /* Centraliza a sidebar horizontalmente */
-  right: 50%;
-  transform: translate(50%, -50%);
+
   @media (max-width: 768px) {
     top: auto;
     bottom: 0;
     right: 50%;
-    transform: translateX(50%) translateY(0); /* Centraliza a sidebar na parte inferior da tela */
+    transform: translateX(50%);
     flex-direction: row;
     padding: 5px;
     overflow-x: auto;
-    max-width: 100%;
-    width: auto; /* Ajusta a largura para que se ajuste ao conteúdo */
-    justify-content: center; /* Centraliza o conteúdo horizontalmente */
+    max-width: calc(100% - 20px); /* Ajusta a largura máxima para considerar o padding */
+    width: auto; /* Ajusta a largura automática */
+    box-sizing: border-box; /* Inclui padding na largura total */
   }
 `;
 
