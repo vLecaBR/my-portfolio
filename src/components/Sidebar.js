@@ -87,12 +87,11 @@ const SidebarContainer = styled.div`
   transform: translateY(-50%);
   display: flex;
   flex-direction: column;
-  padding: 10px;
+  padding: 20px; /* Aumentado o padding para web */
   border-radius: 8px;
   background: transparent; /* Remover o fundo da sidebar */
   z-index: 1000;
-  max-width: 250px;
-  background-color: #112240;
+  max-width: 300px; /* Aumentado o max-width para web */
 
   @media (max-width: 768px) {
     top: auto;
@@ -105,15 +104,16 @@ const SidebarContainer = styled.div`
     max-width: calc(100% - 20px); /* Ajusta a largura máxima para considerar o padding */
     width: auto; /* Ajusta a largura automática */
     box-sizing: border-box; /* Inclui padding na largura total */
+    background-color: #112240; /* Cor de fundo adicionado somente mobile */
   }
 `;
 
 const NavItem = styled.div`
   cursor: pointer;
   color: ${props => (props.isActive ? '#64ffda' : '#8892b0')};
-  font-size: 0.9em;
-  margin: 5px 0;
-  padding: 8px 15px;
+  font-size: 1em; /* Aumentado o tamanho da fonte para web */
+  margin: 10px 0; /* Aumentado o espaço entre os itens */
+  padding: 10px 20px; /* Aumentado o padding para web */
   border-left: ${props => (props.isActive ? '2px solid #64ffda' : '2px solid transparent')};
   transition: all 0.3s ease-in-out;
 
@@ -127,6 +127,7 @@ const NavItem = styled.div`
     padding: 8px;
     border-left: none;
     border-bottom: ${props => (props.isActive ? '2px solid #64ffda' : '2px solid transparent')};
+    font-size: 0.8em; /* Ajusta o tamanho da fonte para mobile */
 
     &:hover {
       border-left: none;
