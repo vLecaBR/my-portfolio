@@ -7,16 +7,18 @@ const Sidebar = () => {
   const handleScroll = () => {
     const sections = ['home', 'about', 'experience', 'projects', 'contact'];
     let currentSection = 'home';
-    
+
+    const scrollPosition = window.scrollY + window.innerHeight / 2; // Ponto de verificação
+
     sections.forEach(section => {
       const element = document.getElementById(section);
       if (element) {
         const rect = element.getBoundingClientRect();
         const sectionTop = rect.top + window.scrollY;
         const sectionBottom = sectionTop + rect.height;
-        const windowHeight = window.innerHeight;
         
-        if (window.scrollY + windowHeight / 2 >= sectionTop && window.scrollY + windowHeight / 2 <= sectionBottom) {
+        // Adicionar uma margem de 50 pixels para melhorar a detecção
+        if (scrollPosition >= sectionTop - 50 && scrollPosition <= sectionBottom) {
           currentSection = section;
         }
       }
