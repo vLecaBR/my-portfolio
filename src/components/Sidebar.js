@@ -100,7 +100,7 @@ const SidebarContainer = styled.div`
     transform: translateX(50%);
     flex-direction: row;
     padding: 5px;
-    overflow-x: auto;
+    overflow-x: hidden;
     max-width: calc(100% - 20px); /* Ajusta a largura máxima para considerar o padding */
     width: auto; /* Ajusta a largura automática */
     box-sizing: border-box; /* Inclui padding na largura total */
