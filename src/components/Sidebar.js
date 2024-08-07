@@ -87,7 +87,7 @@ const SidebarContainer = styled.div`
   flex-direction: column;
   padding: 10px;
   border-radius: 8px;
-  background: #0a192f;
+  background: transparent; /* Remover o fundo da sidebar */
   z-index: 1000;
   max-width: 250px;
 
