@@ -60,11 +60,16 @@ const Experience = () => (
 );
 
 const Section = styled.section`
-  padding: 80px 0;
+  padding: 80px 20px;
   background-color: #0a192f;
   color: #ccd6f6;
   text-align: center;
+
+  @media (max-width: 768px) {
+    padding: 60px 10px;
+  }
 `;
+
 
 const Title = styled.h2`
   font-size: 2em;
@@ -83,7 +88,7 @@ const JobDetails = styled.div`
   padding: 20px;
   border-radius: 8px;
   width: 100%;
-  max-width: 700px;
+  max-width: 900px; // Ajuste para igualar ao Projects
   position: relative;
 `;
 
