@@ -8,6 +8,7 @@ import Contact from './components/Contact';
 import Sidebar from './components/Sidebar';
 import MouseGlow from './components/MouseGlow';
 import { Analytics } from "@vercel/analytics/react"
+import { SpeedInsights } from "@vercel/speed-insights/react"
 
 const App = () => (
   <>
