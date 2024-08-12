@@ -21,6 +21,7 @@ const App = () => (
     <Contact />
     <Sidebar />
     <Analytics id="YVXQVZQ6Q3" />
+    <SpeedInsights />
   </>
 );
 
