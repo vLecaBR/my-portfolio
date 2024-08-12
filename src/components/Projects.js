@@ -99,6 +99,7 @@ const Section = styled.section`
   background-color: #0a192f;
   color: #ccd6f6;
   text-align: center;
+  z-index: 3;
 
   @media (max-width: 768px) {
     padding: 60px 10px;
