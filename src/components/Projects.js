@@ -166,8 +166,8 @@ const ProjectImageWrapper = styled.div`
 `;
 
 const ProjectImage = styled.img`
-  width: 100%;
-  height: auto;
+  width: 1920px;
+  height: 1080px;
   object-fit: cover;
 `;
 
