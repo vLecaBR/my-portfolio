@@ -12,7 +12,7 @@ const Hero = () => (
       Quick to learn and adept at working with the latest web technologies, such as React.JS, HTML5, CSS3, SASS, Figma, Svelte, Python, and more. <br></br>
       Always eager to learn more.
     </Description>
-    <Button href="https://www.linkedin.com/in/victor-leca-vlkbr/">Check out my Linkedin</Button>
+    <Button href="https://www.linkedin.com/in/victor-leca-vlkbr/" target="_blank">Check out my Linkedin</Button>
   </Section>
 );
 
