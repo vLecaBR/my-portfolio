@@ -86,7 +86,7 @@ const Projects = () => (
               <Skill>Git and Github</Skill>
               <Skill>Figma</Skill>
             </Skills>
-            <ProjectLink href="https://github.com/vLecaBR/Projeto-Link-Hub" target="_blank" rel="noopener noreferrer">View Project</ProjectLink>
+            <ProjectLink href="https://github.com/vLecaBR/first-react-project" target="_blank" rel="noopener noreferrer">View Project</ProjectLink>
           </ProjectContent>
         </ProjectContentWrapper>
       </ProjectDetails>
