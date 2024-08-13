@@ -25,7 +25,6 @@ const Glow = styled.div`
   pointer-events: none;
   transform: translate(-50%, -50%);
   transition: background 0.3s ease;
-  z-index: 2; /* Ajustado para ficar acima do header */
 `;
 
 export default MouseGlow;

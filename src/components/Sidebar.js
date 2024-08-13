@@ -90,7 +90,6 @@ const SidebarContainer = styled.div`
   padding: 20px; /* Aumentado o padding para web */
   border-radius: 8px;
   background: transparent; /* Remover o fundo da sidebar */
-  z-index: 1000;
   max-width: 300px; /* Aumentado o max-width para web */
 
   @media (max-width: 768px) {

@@ -20,7 +20,6 @@ const Section = styled.section`
   background-color: #0a192f;
   color: #ccd6f6;
   text-align: center;
-  z-index: 3;
 `;
 
 const Title = styled.h2`
