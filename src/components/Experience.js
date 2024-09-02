@@ -5,8 +5,29 @@ const Experience = () => (
   <Section id="experience">
     <Title>Experience</Title>
     <Job>
+    <JobDetails>
+        <JobDate>Semptember 2024 - Present</JobDate>
+        <JobTitle>JR Automation Assistant - LongPing - High Tech</JobTitle>
+        <JobDescription>
+        I work on the creation and maintenance of automated workflows, sites, 
+        lists, and libraries using SharePoint, Power Automate, and Power Apps. 
+        I develop customized solutions to meet the specific needs of users, from 
+        simple workflows like automatic email triggers to complex approval processes.
+        I also identify and apply the most suitable technologies for web development,
+        ensuring efficiency and usability in every project.
+        </JobDescription>
+        <Skills>
+          <Skill>SharePoint</Skill>
+          <Skill>Power Automate</Skill>
+          <Skill>Power Apps</Skill>
+          <Skill>JavaScript</Skill>
+          <Skill>Power FX</Skill>
+          <Skill>HTML</Skill>
+          <Skill>CSS</Skill>
+        </Skills>
+      </JobDetails>
       <JobDetails>
-        <JobDate>February 2023 - Present</JobDate>
+        <JobDate>February 2023 - Semptember 2024</JobDate>
         <JobTitle>Helpdesk Intern - LongPing - High Tech</JobTitle>
         <JobDescription>
           Working with in-person and remote calls to correct problems such as VPN, 
