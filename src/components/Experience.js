@@ -26,6 +26,8 @@ const Experience = () => (
           <Skill>CSS</Skill>
         </Skills>
       </JobDetails>
+      </Job>
+      <Job>
       <JobDetails>
         <JobDate>February 2023 - Semptember 2024</JobDate>
         <JobTitle>Helpdesk Intern - LongPing - High Tech</JobTitle>
