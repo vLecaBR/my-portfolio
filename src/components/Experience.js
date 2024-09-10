@@ -9,12 +9,13 @@ const Experience = () => (
         <JobDate>Semptember 2024 - Present</JobDate>
         <JobTitle>JR Automation Assistant - LongPing - High Tech</JobTitle>
         <JobDescription>
-        I work on the creation and maintenance of automated workflows, sites, 
-        lists, and libraries using SharePoint, Power Automate, and Power Apps. 
-        I develop customized solutions to meet the specific needs of users, from 
-        simple workflows like automatic email triggers to complex approval processes.
-        I also identify and apply the most suitable technologies for web development,
-        ensuring efficiency and usability in every project.
+        I work in the creation and maintenance of automated workflows, websites, 
+        lists, and libraries using Power Platform tools, SharePoint, Power Automate, 
+        and Power Apps, as well as web technologies such as ReactJS, among others,
+        depending on user requests. I develop customized solutions that meet specific 
+        user needs, from simple workflows like automatic email triggers to complex 
+        approval processes. I also identify and apply the most suitable technologies 
+        for web development, ensuring efficiency and usability in each project.
         </JobDescription>
         <Skills>
           <Skill>SharePoint</Skill>
