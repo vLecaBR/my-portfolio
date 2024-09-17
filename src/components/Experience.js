@@ -19,11 +19,13 @@ const Experience = () => (
         each project.
         </JobDescription>
         <Skills>
+          <Skill>ReactJS</Skill>
           <Skill>SharePoint</Skill>
           <Skill>Power Automate</Skill>
           <Skill>Power Apps</Skill>
-          <Skill>JavaScript</Skill>
           <Skill>Power FX</Skill>
+          <Skill>Power Platform</Skill>
+          <Skill>JavaScript</Skill>
           <Skill>HTML</Skill>
           <Skill>CSS</Skill>
         </Skills>
