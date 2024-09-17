@@ -7,8 +7,7 @@ const Hero = () => (
     <Name>Victor Leça.</Name>
     <Subtitle>I build things for the web.</Subtitle>
     <Description>
-      A young computer science student focused on web development, with professional experience primarily in technical support. <br></br>
-      Currently seeking experience in the web development field. <br></br>
+      A young computer science student focused on web development, with professional experience. <br></br>
       Quick to learn and adept at working with the latest web technologies, such as React.JS, HTML5, CSS3, SASS, Figma, Svelte, Python, and more. <br></br>
       Always eager to learn more.
     </Description>
