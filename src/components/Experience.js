@@ -9,14 +9,14 @@ const Experience = () => (
         <JobDate>Semptember 2024 - Present</JobDate>
         <JobTitle>JR Automation Assistant - LongPing - High Tech</JobTitle>
         <JobDescription>
-        I work in the creation and maintenance of automated workflows, websites, 
-        lists, and libraries using Power Platform tools, SharePoint, Power Automate,
-        and Power Apps, as well as web technologies such as ReactJS, among others,
-        depending on user requests. I develop customized solutions that meet specific
-        user needs, from simple workflows like automatic email triggers to
-        complex approval processes. I also identify and apply the most suitable
-        technologies for web development, ensuring efficiency and usability in 
-        each project.
+        I work in the development and maintenance of customized solutions using the Power Platform, 
+        where I create websites, applications, forms, and approval workflows. My experience includes 
+        creating and maintaining automated workflows, lists, and libraries in SharePoint, Power Automate, 
+        and Power Apps. Additionally, I develop dynamic websites using ReactJS and mobile applications with React Native,
+         catering to specific user requests. I implement automation processes ranging from simple workflows, such as automatic 
+         email sending, to complex approval processes, ensuring efficiency and effectiveness in operations. I also focus on identifying 
+         and applying the most suitable technologies for solution development, ensuring optimal usability and performance in each project.
+          I am committed to providing solutions that meet users' specific needs and enhancing the digital experience within the organization.
         </JobDescription>
         <Skills>
           <Skill>ReactJS</Skill>
@@ -28,6 +28,7 @@ const Experience = () => (
           <Skill>JavaScript</Skill>
           <Skill>HTML</Skill>
           <Skill>CSS</Skill>
+          <Skill>React Native</Skill>
         </Skills>
       </JobDetails>
       </Job>
