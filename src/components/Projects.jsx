@@ -9,6 +9,35 @@ const Projects = () => (
       <ProjectDetails>
         <ProjectContentWrapper>
           <ProjectImageWrapper>
+            <ProjectImage src={require('./img/sales.png')} alt="Technology Athletics Website" />
+          </ProjectImageWrapper>
+          <ProjectContent>
+            <ProjectTitle>Sales Website Model</ProjectTitle>
+            <ProjectDescription>
+            This project was developed to enhance my skills in ReactJS and NodeJS while creating a functional template for future e-commerce projects.
+            The website includes an admin panel for managing products, sales, and users. It was designed to be responsive, user-friendly, and adaptable to different types of products.
+            Since my initial expertise was focused on Front-End development, I had to learn NodeJS to build the back-end, connect to the database, and develop the admin panel.
+            </ProjectDescription>
+            <Skills>
+              <Skill>JavaScript</Skill>
+              <Skill>ReactJS</Skill>
+              <Skill>NodeJS</Skill>
+              <Skill>AdminJS</Skill>
+              <Skill>HTML5</Skill>
+              <Skill>CSS3</Skill>
+              <Skill>Figma</Skill>
+            </Skills>
+            <ProjectLink href="https://github.com/vLecaBR/sales-website-model" target="_blank" rel="noopener noreferrer">View Front-end</ProjectLink>
+            <ProjectLink href="https://github.com/vLecaBR/sales-website-model-backend" target="_blank" rel="noopener noreferrer">View Back-end</ProjectLink>
+          </ProjectContent>
+        </ProjectContentWrapper>
+      </ProjectDetails>
+    </Project>
+
+    <Project>
+      <ProjectDetails>
+        <ProjectContentWrapper>
+          <ProjectImageWrapper>
             <ProjectImage src={require('./img/sitetec.png')} alt="Technology Athletics Website" />
           </ProjectImageWrapper>
           <ProjectContent>
@@ -34,6 +63,7 @@ const Projects = () => (
         </ProjectContentWrapper>
       </ProjectDetails>
     </Project>
+
 
     <Project>
       <ProjectDetails>
