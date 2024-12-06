@@ -1,5 +1,16 @@
 import React from 'react';
-import styled from 'styled-components';
+
+import {
+  Section,
+  Title,
+  Job,
+  JobDetails,
+  JobDate,
+  JobTitle,
+  JobDescription,
+  Skills,
+  Skill,
+} from './Experience.styles';
 
 const Experience = () => (
   <Section id="experience">
@@ -86,74 +97,5 @@ const Experience = () => (
     {/* Adicione outros trabalhos aqui */}
   </Section>
 );
-
-const Section = styled.section`
-  padding: 80px 20px;
-  background-color: #0a192f;
-  color: #ccd6f6;
-  text-align: center;
-
-  @media (max-width: 768px) {
-    padding: 60px 10px;
-  }
-`;
-
-
-const Title = styled.h2`
-  font-size: 2em;
-  margin-bottom: 20px;
-`;
-
-const Job = styled.div`
-  margin-bottom: 20px;
-  text-align: left;
-  display: flex;
-  justify-content: center;
-`;
-
-const JobDetails = styled.div`
-  background-color: #112240;
-  padding: 20px;
-  border-radius: 8px;
-  width: 100%;
-  max-width: 900px; // Ajuste para igualar ao Projects
-  position: relative;
-`;
-
-const JobDate = styled.div`
-  position: absolute;
-  top: 10px;
-  left: 10px;
-  font-size: 0.8em;
-  color: #64ffda;
-`;
-
-const JobTitle = styled.h3`
-  font-size: 1.3em;
-  margin: 0 0 10px;
-  color: #ccd6f6;
-`;
-
-const JobDescription = styled.p`
-  font-size: 0.9em;
-  line-height: 1.4;
-  color: #8892b0;
-`;
-
-const Skills = styled.div`
-  display: flex;
-  flex-wrap: wrap;
-  margin-top: 10px;
-`;
-
-const Skill = styled.span`
-  background-color: #112240;
-  border: 1px solid #64ffda;
-  border-radius: 4px;
-  padding: 5px 10px;
-  margin: 5px;
-  font-size: 0.8em;
-  color: #64ffda;
-`;
 
 export default Experience;
