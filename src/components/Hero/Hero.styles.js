@@ -1,21 +1,6 @@
-import React from 'react';
 import styled from 'styled-components';
 
-const Hero = () => (
-  <Section>
-    <Intro>Hi, my name is</Intro>
-    <Name>Victor Leça.</Name>
-    <Subtitle>I build things for the web.</Subtitle>
-    <Description>
-      A young computer science student focused on web development, with professional experience and 4 years in multinationals companies. <br></br>
-      Quick to learn and adept at working with the latest web technologies, such as React.JS, HTML5, CSS3, SASS, Figma, Svelte, Python, and more. <br></br>
-      Always eager to learn more.
-    </Description>
-    <Button href="https://www.linkedin.com/in/victor-leca-vlkbr/" target="_blank">Check out my Linkedin</Button>
-  </Section>
-);
-
-const Section = styled.section`
+export const Section = styled.section`
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -34,7 +19,7 @@ const Section = styled.section`
   }
 `;
 
-const Intro = styled.h1`
+export const Intro = styled.h1`
   color: #64ffda;
 
   @media (max-width: 480px) {
@@ -42,7 +27,7 @@ const Intro = styled.h1`
   }
 `;
 
-const Name = styled.h2`
+export const Name = styled.h2`
   font-size: 3.5em;
   margin: 0;
 
@@ -55,7 +40,7 @@ const Name = styled.h2`
   }
 `;
 
-const Subtitle = styled.h3`
+export const Subtitle = styled.h3`
   font-size: 2.5em;
   margin: 10px 0;
 
@@ -68,7 +53,7 @@ const Subtitle = styled.h3`
   }
 `;
 
-const Description = styled.p`
+export const Description = styled.p`
   max-width: 540px;
   line-height: 1.5;
   margin: 20px 0;
@@ -78,7 +63,7 @@ const Description = styled.p`
   }
 `;
 
-const Button = styled.a`
+export const Button = styled.a`
   padding: 15px 20px;
   background-color: transparent;
   border: 1px solid #64ffda;
@@ -91,5 +76,3 @@ const Button = styled.a`
     font-size: 0.9em;
   }
 `;
-
-export default Hero;
