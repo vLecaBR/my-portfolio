@@ -34,8 +34,8 @@ const Projects = () => (
             Since my initial expertise was focused on Front-End development, I had to learn NodeJS to build the back-end, connect to the database, and develop the admin panel.
             </ProjectDescription>
             <Skills>
-              <Skill>JavaScript</Skill>
               <Skill>ReactJS</Skill>
+              <Skill>JavaScript</Skill>
               <Skill>NodeJS</Skill>
               <Skill>AdminJS</Skill>
               <Skill>HTML5</Skill>
