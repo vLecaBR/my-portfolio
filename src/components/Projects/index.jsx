@@ -19,6 +19,7 @@ const Projects = () => (
   <Section id="projects">
     <Title>Projects</Title>
 
+
     <Project>
       <ProjectDetails>
         <ProjectContentWrapper>
@@ -47,6 +48,7 @@ const Projects = () => (
         </ProjectContentWrapper>
       </ProjectDetails>
     </Project>
+
 
     <Project>
       <ProjectDetails>
@@ -106,6 +108,7 @@ const Projects = () => (
         </ProjectContentWrapper>
       </ProjectDetails>
     </Project>
+
 
     <Project>
       <ProjectDetails>
