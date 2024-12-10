@@ -15,6 +15,8 @@ import {
 const Experience = () => (
   <Section id="experience">
     <Title>Experience</Title>
+
+    
     <Job>
     <JobDetails>
         <JobDate>Semptember 2024 - Present</JobDate>
@@ -44,6 +46,8 @@ const Experience = () => (
         </Skills>
       </JobDetails>
       </Job>
+
+
       <Job>
       <JobDetails>
         <JobDate>February 2023 - Semptember 2024</JobDate>
@@ -51,11 +55,11 @@ const Experience = () => (
         <JobDescription>
           Working with in-person and remote calls to correct problems such as VPN, 
           password issues, bug fixes, creating groups and user management using Active
-           Directory, creating shell scripts for remote execution, reducing around 10 hours 
-           of manual work monthly, network monitoring, and internal services using Zabbix and 
-           Grafana, improving monitoring by 20%, maintenance of notebooks, desktops, monitors, 
-           responsible for extracting and making .MSIX files available for installation, stock 
-           control and dispatch of equipment, creation of websites aimed at the internal public (intranet).
+          Directory, creating shell scripts for remote execution, reducing around 10 hours 
+          of manual work monthly, network monitoring, and internal services using Zabbix and 
+          Grafana, improving monitoring by 20%, maintenance of notebooks, desktops, monitors, 
+          responsible for extracting and making .MSIX files available for installation, stock 
+          control and dispatch of equipment, creation of websites aimed at the internal public (intranet).
         </JobDescription>
         <Skills>
           <Skill>React</Skill>
@@ -72,6 +76,8 @@ const Experience = () => (
         </Skills>
       </JobDetails>
     </Job>
+
+
     <Job>
       <JobDetails>
         <JobDate>February 2021 - January 2023</JobDate>
@@ -79,12 +85,12 @@ const Experience = () => (
         <JobDescription>
           Apprentice in 3 areas: Administrative, IT, and Facilities. IT experience includes 
           help desk support tasks, reducing service time by 30%, formatting and preparing machines
-           for integration, remote support, equipment delivery and inventory control, improving IT 
-           stock by 35%. In the administrative and facilities area, activities were related to the 
-           GAO (General Affairs Office), office presentation, and benefits. Additionally, participated
-            in general onboarding, took care of the office, and managed service notes for purchased equipment.
-             Also obtained quotes for pest control and painting. For 1 and a half years, worked remotely, and 
-             in the last 6 months, adopted the hybrid model.
+          for integration, remote support, equipment delivery and inventory control, improving IT 
+          stock by 35%. In the administrative and facilities area, activities were related to the 
+          GAO (General Affairs Office), office presentation, and benefits. Additionally, participated
+          in general onboarding, took care of the office, and managed service notes for purchased equipment.
+          Also obtained quotes for pest control and painting. For 1 and a half years, worked remotely, and 
+          in the last 6 months, adopted the hybrid model.
         </JobDescription>
         <Skills>
           <Skill>Active Directory</Skill>
