@@ -23,11 +23,12 @@ const Experience = () => (
         I work in the development and maintenance of customized solutions using the Power Platform, 
         where I create websites, applications, forms, and approval workflows. My experience includes 
         creating and maintaining automated workflows, lists, and libraries in SharePoint, Power Automate, 
-        and Power Apps. Additionally, I develop dynamic websites using ReactJS and mobile applications with React Native,
-         catering to specific user requests. I implement automation processes ranging from simple workflows, such as automatic 
-         email sending, to complex approval processes, ensuring efficiency and effectiveness in operations. I also focus on identifying 
-         and applying the most suitable technologies for solution development, ensuring optimal usability and performance in each project.
-          I am committed to providing solutions that meet users' specific needs and enhancing the digital experience within the organization.
+        and Power Apps. Additionally, I develop dynamic websites using ReactJS and mobile applications with 
+        React Native, catering to specific user requests. I implement automation processes ranging from simple 
+        workflows, such as automatic email sending, to complex approval processes, ensuring efficiency and 
+        effectiveness in operations. I also focus on identifying and applying the most suitable technologies 
+        for solution development, ensuring optimal usability and performance in each project. I am committed 
+        to providing solutions that meet users' specific needs and enhancing the digital experience within the organization.
         </JobDescription>
         <Skills>
           <Skill>ReactJS</Skill>
