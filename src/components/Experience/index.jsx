@@ -34,15 +34,16 @@ const Experience = () => (
         </JobDescription>
         <Skills>
           <Skill>ReactJS</Skill>
+          <Skill>JavaScript</Skill>
+          <Skill>HTML</Skill>
+          <Skill>CSS</Skill>
+          <Skill>React Native</Skill>
+          <Skill>NodeJS</Skill>
           <Skill>SharePoint</Skill>
           <Skill>Power Automate</Skill>
           <Skill>Power Apps</Skill>
           <Skill>Power FX</Skill>
           <Skill>Power Platform</Skill>
-          <Skill>JavaScript</Skill>
-          <Skill>HTML</Skill>
-          <Skill>CSS</Skill>
-          <Skill>React Native</Skill>
         </Skills>
       </JobDetails>
       </Job>
