@@ -73,7 +73,7 @@ const Projects = () => (
               <Skill>Figma</Skill>
             </Skills>
             <ProjectLink href="https://djfranzoni-portfolio.vercel.app/" target="_blank" rel="noopener noreferrer">View Project</ProjectLink>
-            <ProjectLink href="https://djfranzoni-portfolio.vercel.app/" target="_blank" rel="noopener noreferrer">View Repository</ProjectLink>
+            <ProjectLink href="https://github.com/vLecaBR/djfranzoni-portfolio" target="_blank" rel="noopener noreferrer">View Repository</ProjectLink>
 
           </ProjectContent>
         </ProjectContentWrapper>
