@@ -49,6 +49,37 @@ const Projects = () => (
       </ProjectDetails>
     </Project>
 
+    <Project>
+      <ProjectDetails>
+        <ProjectContentWrapper>
+          <ProjectImageWrapper>
+            <ProjectImage src={require('../img/djfranzoni.png')} alt="djfran" />
+          </ProjectImageWrapper>
+          <ProjectContent>
+            <ProjectTitle>DJ Franzoni</ProjectTitle>
+            <ProjectDescription>
+              I did this project for my friend, who is a DJ. She wanted a website to showcase his work and
+              provide a platform for people to book her for events. The website is designed to be simple and easy to navigate, with a focus on his music and services.
+              The project was a great opportunity for me to practice my skills in React, as well as to learn more about web design and user experience.
+              I also had the chance to work with Figma to create a design that met my friend's needs and preferences.
+            </ProjectDescription>
+            <Skills>
+              <Skill>React</Skill>
+              <Skill>Styled Components</Skill>
+              <Skill>JavaScript</Skill>
+              <Skill>HTML5</Skill>
+              <Skill>CSS3</Skill>
+              <Skill>Git and Github</Skill>
+              <Skill>Figma</Skill>
+            </Skills>
+            <ProjectLink href="https://djfranzoni-portfolio.vercel.app/" target="_blank" rel="noopener noreferrer">View Project</ProjectLink>
+            <ProjectLink href="https://djfranzoni-portfolio.vercel.app/" target="_blank" rel="noopener noreferrer">View Repository</ProjectLink>
+
+          </ProjectContent>
+        </ProjectContentWrapper>
+      </ProjectDetails>
+    </Project>
+
 
     <Project>
       <ProjectDetails>
