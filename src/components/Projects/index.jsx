@@ -42,8 +42,8 @@ const Projects = () => (
               <Skill>CSS3</Skill>
               <Skill>Figma</Skill>
             </Skills>
-            <ProjectLink href="https://github.com/vLecaBR/sales-website-model" target="_blank" rel="noopener noreferrer">View Front-end</ProjectLink>
-            <ProjectLink href="https://github.com/vLecaBR/sales-website-model-backend" target="_blank" rel="noopener noreferrer">View Back-end</ProjectLink>
+            <ProjectLink href="https://github.com/vLecaBR/sales-website-model" target="_blank" rel="noopener noreferrer">View Front-end View Repository</ProjectLink>
+            <ProjectLink href="https://github.com/vLecaBR/sales-website-model-backend" target="_blank" rel="noopener noreferrer">View Back-end View Repository</ProjectLink>
           </ProjectContent>
         </ProjectContentWrapper>
       </ProjectDetails>
@@ -105,7 +105,7 @@ const Projects = () => (
               <Skill>CSS3</Skill>
               <Skill>Figma</Skill>
             </Skills>
-            <ProjectLink href="https://github.com/Lu4head/Site_Tec_Barao" target="_blank" rel="noopener noreferrer">View Project</ProjectLink>
+            <ProjectLink href="https://github.com/Lu4head/Site_Tec_Barao" target="_blank" rel="noopener noreferrer">View Repository</ProjectLink>
           </ProjectContent>
         </ProjectContentWrapper>
       </ProjectDetails>
@@ -134,7 +134,8 @@ const Projects = () => (
               <Skill>Git and Github</Skill>
               <Skill>Figma</Skill>
             </Skills>
-            <ProjectLink href="https://projeto-link-hub.vercel.app/" target="_blank" rel="noopener noreferrer">View Project</ProjectLink>
+            <ProjectLink href="https://projeto-link-hub.vercel.app/" target="_blank" rel="noopener noreferrer">View Project</ProjectLink> 
+            <ProjectLink href="https://github.com/vLecaBR/Projeto-Link-Hub" target="_blank" rel="noopener noreferrer">View Project</ProjectLink> 
           </ProjectContent>
         </ProjectContentWrapper>
       </ProjectDetails>
