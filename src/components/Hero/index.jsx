@@ -10,7 +10,7 @@ import {
 
 const Hero = () => (
   <Section>
-    <Intro>Hi, my name is</Intro>
+    <Intro>Hi, I'm</Intro>
     <Name>Victor Leça.</Name>
     <Subtitle>I build things for the web.</Subtitle>
     <Description>
