@@ -135,7 +135,7 @@ const Projects = () => (
               <Skill>Figma</Skill>
             </Skills>
             <ProjectLink href="https://projeto-link-hub.vercel.app/" target="_blank" rel="noopener noreferrer">View Project</ProjectLink> 
-            <ProjectLink href="https://github.com/vLecaBR/Projeto-Link-Hub" target="_blank" rel="noopener noreferrer">View Project</ProjectLink> 
+            <ProjectLink href="https://github.com/vLecaBR/Projeto-Link-Hub" target="_blank" rel="noopener noreferrer">View Repository</ProjectLink> 
           </ProjectContent>
         </ProjectContentWrapper>
       </ProjectDetails>
