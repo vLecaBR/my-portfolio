@@ -67,6 +67,7 @@ const Projects = () => (
             <Skills>
               <Skill>React</Skill>
               <Skill>Styled Components</Skill>
+              <Skill>Framer Motion</Skill>
               <Skill>JavaScript</Skill>
               <Skill>HTML5</Skill>
               <Skill>CSS3</Skill>
