@@ -35,6 +35,7 @@ const Projects = () => (
             </ProjectDescription>
             <Skills>
               <Skill>ReactJS</Skill>
+              <Skill>Styled Components</Skill>
               <Skill>JavaScript</Skill>
               <Skill>NodeJS</Skill>
               <Skill>AdminJS</Skill>
