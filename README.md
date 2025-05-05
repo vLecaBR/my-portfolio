@@ -8,10 +8,10 @@ Este é o meu portfolio pessoal, desenvolvido para apresentar minha trajetória 
 
 ## ✨ Funcionalidades
 
-- ✅ Layout responsivo (mobile-first)
-- ✅ Seções de biografia, agenda e links sociais
-- ✅ Integração com redes sociais
-- ✅ Interface leve e de alta performance
+- ✅ Layout responsivo (mobile-first).
+- ✅ Seções de biografia, projetos, experiências e links sociais.
+- ✅ Integração com redes sociais.
+- ✅ Interface leve e de alta performance.
 
 ## 🛠️ Tecnologias Utilizadas
 
