@@ -1,6 +1,5 @@
+# 🇧🇷 README em Português
 # 👨🏻‍💻 Victor Leça - Portfólio
-
-## 🇧🇷 README em Português
 
 Este é o meu portfólio pessoal, criado com o objetivo de apresentar minha trajetória profissional, projetos desenvolvidos e formas de contato — tudo isso com um visual moderno, elegante e totalmente responsivo.
 
@@ -31,7 +30,8 @@ Este projeto é de natureza pessoal e artística, e não está licenciado sob um
 
 ---
 
-## 🇺🇸 README in English
+
+# 🇺🇸 README in English
 
 This is my personal portfolio, developed to showcase my career path, the projects I've built, and contact links — all wrapped in a modern, elegant, and fully responsive design.
 
