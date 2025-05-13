@@ -59,8 +59,8 @@ const Projects = () => (
           <ProjectContent>
             <ProjectTitle>DJ Franzoni</ProjectTitle>
             <ProjectDescription>
-              I did this project for my friend, who is a DJ. She wanted a website to showcase his work and
-              provide a platform for people to book her for events. The website is designed to be simple and easy to navigate, with a focus on his music and services.
+              I did this project for my friend, who is a DJ. She wanted a website to showcase her work and
+              provide a platform for people to book her for events. The website is designed to be simple and easy to navigate, with a focus on her music and services.
               The project was a great opportunity for me to practice my skills in React, as well as to learn more about web design and user experience.
               I also had the chance to work with Figma to create a design that met my friend's needs and preferences.
             </ProjectDescription>
