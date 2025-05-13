@@ -1,70 +1,63 @@
-# Getting Started with Create React App
+# 🇧🇷 README em Português
+# 👨🏻‍💻 Victor Leça - Portfólio
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Este é o meu portfólio pessoal, criado com o objetivo de apresentar minha trajetória profissional, projetos desenvolvidos e formas de contato — tudo isso com um visual moderno, elegante e totalmente responsivo.
 
-## Available Scripts
+### 🌐 Acesse o site
 
-In the project directory, you can run:
+🔗 [https://victorleca.vercel.app](https://victorleca.vercel.app)
 
-### `npm start`
+### ✨ Funcionalidades
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- ✅ Layout responsivo (mobile-first)  
+- ✅ Seções dedicadas à biografia, projetos, experiências e redes sociais  
+- ✅ Integração com plataformas sociais  
+- ✅ Interface leve, rápida e de alta performance  
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### 🛠️ Tecnologias Utilizadas
 
-### `npm test`
+- [React](https://reactjs.org/) – Biblioteca JavaScript para interfaces interativas  
+- [Styled-Components](https://styled-components.com/) – Estilização com CSS-in-JS  
+- [Vercel](https://vercel.com/) – Plataforma de hospedagem e deploy contínuo  
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### 📄 Licença
 
-### `npm run build`
+Este projeto é de natureza pessoal e artística, e não está licenciado sob uma licença de código aberto. Para usos específicos, adaptações ou colaborações, entre em contato diretamente.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### 💻 Desenvolvido por
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+[@vLecaBR](https://github.com/vLecaBR)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+---
+---
+---
 
-### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+# 🇺🇸 README in English
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+This is my personal portfolio, developed to showcase my career path, the projects I've built, and contact links — all wrapped in a modern, elegant, and fully responsive design.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+### 🌐 Visit the Website
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+🔗 [https://victorleca.vercel.app](https://victorleca.vercel.app)
 
-## Learn More
+### ✨ Features
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+- ✅ Mobile-first responsive layout  
+- ✅ Sections for biography, projects, experience, and social links  
+- ✅ Integration with social media platforms  
+- ✅ Lightweight and high-performance interface  
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+### 🛠️ Technologies Used
 
-### Code Splitting
+- [React](https://reactjs.org/) – JavaScript library for building user interfaces  
+- [Styled-Components](https://styled-components.com/) – CSS-in-JS styling solution  
+- [Vercel](https://vercel.com/) – Hosting and continuous deployment platform  
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+### 📄 License
 
-### Analyzing the Bundle Size
+This is a personal/artistic project and is not distributed under an open-source license. For usage, adaptations, or collaborations, please get in touch directly.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+### 💻 Developed by
 
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+[@vLecaBR](https://github.com/vLecaBR)
