@@ -17,3 +17,4 @@ export const Text = styled.p`
   margin: 0 auto;
   line-height: 1.5;
 `;
+

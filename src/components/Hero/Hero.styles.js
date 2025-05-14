@@ -76,3 +76,20 @@ export const Button = styled.a`
     font-size: 0.9em;
   }
 `;
+
+export const Skills = styled.div`
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 10px;
+  max-width: 540px;
+`;
+
+export const Skill = styled.span`
+  background-color: #112240;
+  border: 1px solid #64ffda;
+  border-radius: 4px;
+  padding: 5px 10px;
+  margin: 5px;
+  font-size: 0.8em;
+  color: #64ffda;
+`;

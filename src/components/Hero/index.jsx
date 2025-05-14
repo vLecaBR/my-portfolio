@@ -5,7 +5,9 @@ import {
   Name,
   Subtitle,
   Description,
-  Button 
+  Button, 
+  Skills,
+  Skill
 } from './Hero.styles';
 
 const Hero = () => (
@@ -18,6 +20,20 @@ const Hero = () => (
       Quick to learn and adept at working with the latest web technologies, such as ReactJS, NextJS, VueJS, React Native, JavaScript, HTML5, CSS3, NodeJS, SASS, Figma, Svelte, Python, and more. <br></br>
       Always eager to learn more.
     </Description>
+
+                <Skills>
+                  <Skill>ReactJS</Skill>
+                  <Skill>JavaScript</Skill>
+                  <Skill>TypeScript</Skill>
+                  <Skill>HTML</Skill>
+                  <Skill>CSS</Skill>
+                  <Skill>Figma</Skill>
+                  <Skill>NodeJS</Skill>
+                  <Skill>BootStrap</Skill>
+                  <Skill>Sass</Skill>
+                  <Skill>Tailwind CSS</Skill>
+                  </Skills><br></br>
+
     <Button href="https://www.linkedin.com/in/victor-leca-vlkbr/" target="_blank">Check out my Linkedin</Button>
   </Section>
 );

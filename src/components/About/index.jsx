@@ -10,17 +10,15 @@ const About = () => (
   <Section id="about">
     <Title>About Me</Title>
     <Text>
-    I am a Computer Science student with 4 years of experience in multinational companies, 
-    focusing on technical support and infrastructure since 2021. Currently, I work directly 
-    with programming in the automation sector, where I am responsible for creating websites 
-    using ReactJS, Tailwind CSS, and other technologies. I also develop applications, automation 
-    flows, lists, and libraries through the Power Platform, utilizing technologies such as Power
-     Apps, Power Automate, and Office 365 tools, as well as managing SharePoint flows and pages.
-      I have a strong passion for technology and development, especially in the area of web development. 
-      I possess skills in JavaScript, HTML, CSS, ReactJS, Svelte, Figma and Python. Additionally, 
-      I am actively learning and expanding my knowledge in popular frameworks and libraries like 
-      Angular and ReactJS. I am known for being quick, a fast and consistent learner, always motivated 
-      to overcome obstacles and embrace new challenges.
+I'm a Computer Science student with 4 years of experience in multinational companies. 
+I began my professional journey in 2021 focusing on technical support and infrastructure, 
+but I currently work in development, with a strong emphasis on automation and web development.
+ I’m responsible for building websites using technologies like ReactJS and Tailwind CSS. 
+ I also develop applications, automation flows, lists, and libraries using the Power Platform 
+ such as Power Apps, Power Automate, and Office 365 tools and manage SharePoint pages and workflows.
+  I'm passionate about technology and software development, especially in the web environment. 
+  I'm constantly learning and improving my development skills. I'm known for being fast, a quick 
+  and consistent learner, always motivated to overcome obstacles and embrace new challenges.
     </Text>
   </Section>
 );
