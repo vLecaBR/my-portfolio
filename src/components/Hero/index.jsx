@@ -23,12 +23,16 @@ const Hero = () => (
 
                 <Skills>
                   <Skill>ReactJS</Skill>
+                  <Skill>NextJS</Skill>
+                  <Skill>VueJS</Skill>
+                  <Skill>React Native</Skill>
                   <Skill>JavaScript</Skill>
                   <Skill>TypeScript</Skill>
+                  <Skill>NodeJS</Skill>
                   <Skill>HTML</Skill>
                   <Skill>CSS</Skill>
+                  <Skill>Java</Skill>
                   <Skill>Figma</Skill>
-                  <Skill>NodeJS</Skill>
                   <Skill>BootStrap</Skill>
                   <Skill>Sass</Skill>
                   <Skill>Tailwind CSS</Skill>
