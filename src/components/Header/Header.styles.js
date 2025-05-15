@@ -13,6 +13,9 @@ export const Nav = styled.nav`
   opacity: ${({ visible }) => (visible ? 1 : 0)};
   transform: translateY(${({ visible }) => (visible ? '0' : '-20px')});
   transition: opacity 0.5s ease, transform 0.5s ease;
+    @media (max-width: 480px) {
+    display: none;
+  }
 `;
 
 export const Logo = styled.div`
