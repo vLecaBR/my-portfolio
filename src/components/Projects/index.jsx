@@ -142,36 +142,6 @@ const Projects = () => (
         </ProjectContentWrapper>
       </ProjectDetails>
     </Project>
-
-
-    <Project>
-      <ProjectDetails>
-        <ProjectContentWrapper>
-          <ProjectImageWrapper>
-            <ProjectImage src={require('../img/teammanager.png')} alt="Team Manager Screen" />
-          </ProjectImageWrapper>
-          <ProjectContent>
-            <ProjectTitle>Team Manager Screen</ProjectTitle>
-            <ProjectDescription>
-              This project was created for learning purposes. It was my first project with React. 
-              Along with the lessons from a course, I built a team manager where you can predefine 
-              employees and their teams in the code, or you can create a new card. It’s also possible 
-              to create new teams. It's fully flexible and is meant only to display who your team is 
-              and what it looks like.
-            </ProjectDescription>
-            <Skills>
-              <Skill>ReactJS</Skill>
-              <Skill>JavaScript</Skill>
-              <Skill>HTML5</Skill>
-              <Skill>CSS3</Skill>
-              <Skill>Git and Github</Skill>
-              <Skill>Figma</Skill>
-            </Skills>
-            <ProjectLink href="https://github.com/vLecaBR/first-react-project" target="_blank" rel="noopener noreferrer">View Repository</ProjectLink>
-          </ProjectContent>
-        </ProjectContentWrapper>
-      </ProjectDetails>
-    </Project>
   </Section>
 );
 
