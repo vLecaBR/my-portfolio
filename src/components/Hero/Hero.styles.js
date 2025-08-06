@@ -71,12 +71,22 @@ export const Button = styled.a`
   border-radius: 4px;
   color: #64ffda;
   text-decoration: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease, color 0.3s ease;
+
+  &:hover,
+  &:focus-visible {
+    background-color: #64ffda;
+    color: #0a192f;
+    outline: none;
+  }
 
   @media (max-width: 480px) {
     padding: 10px 15px;
     font-size: 0.9em;
   }
 `;
+
 
 export const Skills = styled.div`
   display: flex;
