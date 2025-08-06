@@ -1,8 +1,27 @@
 import React, { useState, useEffect } from 'react';
 import { SidebarContainer, NavItem } from './Sidebar.styles';
+import { useLanguage } from '../../context/LanguageContext';
 
 const Sidebar = () => {
   const [activeSection, setActiveSection] = useState('home');
+  const { lang } = useLanguage();
+
+  const labels = {
+    en: {
+      home: 'Home',
+      about: 'About',
+      experience: 'Experience',
+      projects: 'Projects',
+      contact: 'Contact',
+    },
+    pt: {
+      home: 'Início',
+      about: 'Sobre',
+      experience: 'Experiência',
+      projects: 'Projetos',
+      contact: 'Contato',
+    },
+  };
 
   const handleScroll = () => {
     const sections = ['home', 'about', 'experience', 'projects', 'contact'];
@@ -16,8 +35,7 @@ const Sidebar = () => {
         const rect = element.getBoundingClientRect();
         const sectionTop = rect.top + window.scrollY;
         const sectionBottom = sectionTop + rect.height;
-        
-        // Adicionar uma margem de 50 pixels para melhorar a detecção
+
         if (scrollPosition >= sectionTop - 50 && scrollPosition <= sectionBottom) {
           currentSection = section;
         }
@@ -46,36 +64,15 @@ const Sidebar = () => {
 
   return (
     <SidebarContainer>
-      <NavItem
-        isActive={activeSection === 'home'}
-        onClick={() => handleNavItemClick('home')}
-      >
-        Home
-      </NavItem>
-      <NavItem
-        isActive={activeSection === 'about'}
-        onClick={() => handleNavItemClick('about')}
-      >
-        About
-      </NavItem>
-      <NavItem
-        isActive={activeSection === 'experience'}
-        onClick={() => handleNavItemClick('experience')}
-      >
-        Experience
-      </NavItem>
-      <NavItem
-        isActive={activeSection === 'projects'}
-        onClick={() => handleNavItemClick('projects')}
-      >
-        Projects
-      </NavItem>
-      <NavItem
-        isActive={activeSection === 'contact'}
-        onClick={() => handleNavItemClick('contact')}
-      >
-        Contact
-      </NavItem>
+      {Object.entries(labels[lang]).map(([key, label]) => (
+        <NavItem
+          key={key}
+          isActive={activeSection === key}
+          onClick={() => handleNavItemClick(key)}
+        >
+          {label}
+        </NavItem>
+      ))}
     </SidebarContainer>
   );
 };

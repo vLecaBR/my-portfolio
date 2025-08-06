@@ -1,5 +1,4 @@
 import React from 'react';
-
 import {
   Section,
   Title,
@@ -11,99 +10,130 @@ import {
   Skills,
   Skill,
 } from './Experience.styles';
+import { useLanguage } from '../../context/LanguageContext';
 
-const Experience = () => (
-  <Section id="experience">
-    <Title>Experience</Title>
+const Experience = () => {
+  const { lang } = useLanguage();
 
-    
-    <Job>
-    <JobDetails>
-        <JobDate>Semptember 2024 - Present</JobDate>
-        <JobTitle>JR Automation Assistant - LongPing - High Tech</JobTitle>
-        <JobDescription>
-        I work in the development and maintenance of customized solutions using the Power Platform, 
-        where I create websites, applications, forms, and approval workflows. My experience includes 
-        creating and maintaining automated workflows, lists, and libraries in SharePoint, Power Automate, 
-        and Power Apps. Additionally, I develop dynamic websites using ReactJS and mobile applications with 
-        React Native, catering to specific user requests. I implement automation processes ranging from simple 
-        workflows, such as automatic email sending, to complex approval processes, ensuring efficiency and 
-        effectiveness in operations. I also focus on identifying and applying the most suitable technologies 
-        for solution development, ensuring optimal usability and performance in each project. I am committed 
-        to providing solutions that meet users' specific needs and enhancing the digital experience within the organization.
-        </JobDescription>
-        <Skills>
-          <Skill>ReactJS</Skill>
-          <Skill>JavaScript</Skill>
-          <Skill>HTML</Skill>
-          <Skill>CSS</Skill>
-          <Skill>React Native</Skill>
-          <Skill>NodeJS</Skill>
-          <Skill>SharePoint</Skill>
-          <Skill>Power Automate</Skill>
-          <Skill>Power Apps</Skill>
-          <Skill>Power FX</Skill>
-          <Skill>Power Platform</Skill>
-        </Skills>
-      </JobDetails>
-      </Job>
-
-
-      <Job>
-      <JobDetails>
-        <JobDate>February 2023 - Semptember 2024</JobDate>
-        <JobTitle>Helpdesk Intern - LongPing - High Tech</JobTitle>
-        <JobDescription>
-          Working with in-person and remote calls to correct problems such as VPN, 
-          password issues, bug fixes, creating groups and user management using Active
-          Directory, creating shell scripts for remote execution, reducing around 10 hours 
+  const text = {
+    en: {
+      title: "Experience",
+      jobs: [
+        {
+          date: "September 2024 - Present",
+          title: "JR Automation Assistant - LongPing - High Tech",
+          description: `I work in the development and maintenance of customized solutions using the Power Platform, 
+          where I create websites, applications, forms, and approval workflows. My experience includes 
+          creating and maintaining automated workflows, lists, and libraries in SharePoint, Power Automate, 
+          and Power Apps. Additionally, I develop dynamic websites using ReactJS and mobile applications with 
+          React Native, catering to specific user requests. I implement automation processes ranging from simple 
+          workflows, such as automatic email sending, to complex approval processes, ensuring efficiency and 
+          effectiveness in operations. I also focus on identifying and applying the most suitable technologies 
+          for solution development, ensuring optimal usability and performance in each project. I am committed 
+          to providing solutions that meet users' specific needs and enhancing the digital experience within the organization.`,
+          skills: [
+            "ReactJS", "JavaScript", "HTML", "CSS", "React Native", "NodeJS", 
+            "SharePoint", "Power Automate", "Power Apps", "Power FX", "Power Platform"
+          ],
+        },
+        {
+          date: "February 2023 - September 2024",
+          title: "Helpdesk Intern - LongPing - High Tech",
+          description: `Working with in-person and remote calls to correct problems such as VPN, 
+          password issues, bug fixes, creating groups and user management using Active Directory, creating shell scripts for remote execution, reducing around 10 hours 
           of manual work monthly, network monitoring, and internal services using Zabbix and 
           Grafana, improving monitoring by 20%, maintenance of notebooks, desktops, monitors, 
           responsible for extracting and making .MSIX files available for installation, stock 
-          control and dispatch of equipment, creation of websites aimed at the internal public (intranet).
-        </JobDescription>
-        <Skills>
-          <Skill>React</Skill>
-          <Skill>HTML</Skill>
-          <Skill>CSS</Skill>
-          <Skill>JavaScript</Skill>
-          <Skill>Active Directory</Skill>
-          <Skill>Windows support</Skill>
-          <Skill>Zabbix</Skill>
-          <Skill>Grafana</Skill>
-          <Skill>VPN</Skill>
-          <Skill>PowerShell</Skill>
-          <Skill>SAP</Skill>
-        </Skills>
-      </JobDetails>
-    </Job>
-
-
-    <Job>
-      <JobDetails>
-        <JobDate>February 2021 - January 2023</JobDate>
-        <JobTitle>IT / Facilities Apprentice - TMF Group</JobTitle>
-        <JobDescription>
-          Apprentice in 3 areas: Administrative, IT, and Facilities. IT experience includes 
+          control and dispatch of equipment, creation of websites aimed at the internal public (intranet).`,
+          skills: [
+            "React", "HTML", "CSS", "JavaScript", "Active Directory", "Windows support", 
+            "Zabbix", "Grafana", "VPN", "PowerShell", "SAP"
+          ],
+        },
+        {
+          date: "February 2021 - January 2023",
+          title: "IT / Facilities Apprentice - TMF Group",
+          description: `Apprentice in 3 areas: Administrative, IT, and Facilities. IT experience includes 
           help desk support tasks, reducing service time by 30%, formatting and preparing machines
           for integration, remote support, equipment delivery and inventory control, improving IT 
           stock by 35%. In the administrative and facilities area, activities were related to the 
           GAO (General Affairs Office), office presentation, and benefits. Additionally, participated
           in general onboarding, took care of the office, and managed service notes for purchased equipment.
           Also obtained quotes for pest control and painting. For 1 and a half years, worked remotely, and 
-          in the last 6 months, adopted the hybrid model.
-        </JobDescription>
-        <Skills>
-          <Skill>Active Directory</Skill>
-          <Skill>Windows support</Skill>
-          <Skill>VPN</Skill>
-          <Skill>PowerShell</Skill>
-          <Skill>SAP</Skill>
-        </Skills>
-      </JobDetails>
-    </Job>
-    {/* Adicione outros trabalhos aqui */}
-  </Section>
-);
+          in the last 6 months, adopted the hybrid model.`,
+          skills: [
+            "Active Directory", "Windows support", "VPN", "PowerShell", "SAP"
+          ],
+        },
+      ],
+    },
+    pt: {
+      title: "Experiência",
+      jobs: [
+        {
+          date: "Setembro 2024 - Presente",
+          title: "Assistente Jr. de Automação - LongPing - High Tech",
+          description: `Atuo no desenvolvimento e manutenção de soluções personalizadas utilizando a Power Platform, 
+          onde crio sites, aplicativos, formulários e fluxos de aprovação. Minha experiência inclui 
+          criação e manutenção de fluxos automatizados, listas e bibliotecas no SharePoint, Power Automate 
+          e Power Apps. Além disso, desenvolvo sites dinâmicos usando ReactJS e aplicativos móveis com 
+          React Native, atendendo solicitações específicas dos usuários. Implemento processos de automação que vão desde fluxos simples, como envio automático de e-mails, até processos complexos de aprovação, garantindo eficiência e eficácia nas operações. Também foco na identificação e aplicação das tecnologias mais adequadas para o desenvolvimento das soluções, assegurando usabilidade e desempenho ótimos em cada projeto. Estou comprometido em fornecer soluções que atendam às necessidades específicas dos usuários e em melhorar a experiência digital dentro da organização.`,
+          skills: [
+            "ReactJS", "JavaScript", "HTML", "CSS", "React Native", "NodeJS", 
+            "SharePoint", "Power Automate", "Power Apps", "Power FX", "Power Platform"
+          ],
+        },
+        {
+          date: "Fevereiro 2023 - Setembro 2024",
+          title: "Estagiário Helpdesk - LongPing - High Tech",
+          description: `Atendimento presencial e remoto para correção de problemas como VPN, 
+          questões de senha, correções de bugs, criação de grupos e gerenciamento de usuários usando Active Directory, criação de scripts shell para execução remota, reduzindo cerca de 10 horas 
+          de trabalho manual mensalmente, monitoramento de rede e serviços internos usando Zabbix e 
+          Grafana, melhorando o monitoramento em 20%, manutenção de notebooks, desktops, monitores, 
+          responsável pela extração e disponibilização de arquivos .MSIX para instalação, controle de estoque e despacho de equipamentos, criação de sites voltados ao público interno (intranet).`,
+          skills: [
+            "React", "HTML", "CSS", "JavaScript", "Active Directory", "Windows support", 
+            "Zabbix", "Grafana", "VPN", "PowerShell", "SAP"
+          ],
+        },
+        {
+          date: "Fevereiro 2021 - Janeiro 2023",
+          title: "Aprendiz de TI / Facilities - TMF Group",
+          description: `Aprendiz em 3 áreas: Administrativo, TI e Facilities. Experiência em TI inclui 
+          tarefas de suporte help desk, reduzindo o tempo de atendimento em 30%, formatação e preparação de máquinas
+          para integração, suporte remoto, entrega de equipamentos e controle de inventário, melhorando o estoque de TI em 35%. Na área administrativa e de facilities, as atividades estavam relacionadas ao 
+          GAO (Gabinete de Assuntos Gerais), apresentação do escritório e benefícios. Além disso, participei 
+          do onboarding geral, cuidei do escritório e gerenciei notas de serviço para equipamentos comprados.
+          Também obtive orçamentos para controle de pragas e pintura. Por 1 ano e meio, trabalhei remotamente e, 
+          nos últimos 6 meses, adotei o modelo híbrido.`,
+          skills: [
+            "Active Directory", "Windows support", "VPN", "PowerShell", "SAP"
+          ],
+        },
+      ],
+    },
+  };
+
+  return (
+    <Section id="experience">
+      <Title>{text[lang].title}</Title>
+
+      {text[lang].jobs.map(({ date, title, description, skills }, idx) => (
+        <Job key={idx}>
+          <JobDetails>
+            <JobDate>{date}</JobDate>
+            <JobTitle>{title}</JobTitle>
+            <JobDescription>{description}</JobDescription>
+            <Skills>
+              {skills.map((skill, i) => (
+                <Skill key={i}>{skill}</Skill>
+              ))}
+            </Skills>
+          </JobDetails>
+        </Job>
+      ))}
+    </Section>
+  );
+};
 
 export default Experience;

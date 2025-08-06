@@ -47,3 +47,16 @@ export const MenuItem = styled.a`
     color: #fff;
   }
 `;
+
+export const LangButton = styled.button`
+  background: none;
+  border: none;
+  color: inherit;
+  font-size: 14px;
+  cursor: pointer;
+  padding: 4px 8px;
+  transition: 0.2s;
+  &:hover {
+    opacity: 0.7;
+  }
+`;

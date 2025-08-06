@@ -8,9 +8,11 @@ import Contact from './components/Contact';
 import Sidebar from './components/Sidebar';
 import { Analytics } from "@vercel/analytics/react"
 import { SpeedInsights } from "@vercel/speed-insights/react"
+import { LanguageProvider } from './context/LanguageContext';
 
 const App = () => (
   <>
+  <LanguageProvider>
     <Header />
     <Hero id="home" />
     <About />
@@ -20,6 +22,7 @@ const App = () => (
     <Sidebar />
     <Analytics id="YVXQVZQ6Q3" />
     <SpeedInsights />
+    </LanguageProvider>
   </>
 );
 
