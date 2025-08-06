@@ -13,8 +13,11 @@ export const Nav = styled.nav`
   opacity: ${({ visible }) => (visible ? 1 : 0)};
   transform: translateY(${({ visible }) => (visible ? '0' : '-20px')});
   transition: opacity 0.5s ease, transform 0.5s ease;
-    @media (max-width: 480px) {
-    display: none;
+  z-index: 999;
+
+  @media (max-width: 480px) {
+    display: flex; /* mostrar no mobile tbm, pode ajustar depois */
+    padding: 15px 10px;
   }
 `;
 
@@ -24,9 +27,11 @@ export const Logo = styled.div`
   border: 1px solid #64ffda;
   padding: 10px;
   border-radius: 5px;
+  cursor: default;
 
-  @media (max-width: 480px) {
-    margin-left: 0px;
+  &:focus {
+    outline: 2px solid #64ffda;
+    outline-offset: 2px;
   }
 `;
 
@@ -34,17 +39,30 @@ export const Menu = styled.div`
   display: flex;
   align-items: center;
   margin-right: 50px;
+
+  @media (max-width: 480px) {
+    margin-right: 10px;
+  }
 `;
 
 export const MenuItem = styled.a`
-  margin: 0 10px; 
+  margin: 0 10px;
   padding: 0;
   color: #64ffda;
   text-decoration: none;
   transition: color 0.3s ease;
+  display: flex;
+  align-items: center;
 
-  &:hover {
+  &:hover,
+  &:focus-visible {
     color: #fff;
+    outline: none;
+  }
+
+  &:focus-visible {
+    outline: 2px solid #64ffda;
+    outline-offset: 2px;
   }
 `;
 
@@ -55,8 +73,16 @@ export const LangButton = styled.button`
   font-size: 14px;
   cursor: pointer;
   padding: 4px 8px;
-  transition: 0.2s;
-  &:hover {
+  transition: opacity 0.2s ease;
+
+  &:hover,
+  &:focus-visible {
     opacity: 0.7;
+    outline: none;
+  }
+
+  &:focus-visible {
+    outline: 2px solid #64ffda;
+    outline-offset: 2px;
   }
 `;
