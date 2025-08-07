@@ -117,7 +117,7 @@ const Projects = () => {
           title: "Site Atlética de Tecnologia",
           description: `Esse projeto foi feito na faculdade em colaboração com outros dois devs,
           onde eu fiquei responsável pelo front end. O site foi criado a partir da necessidade
-          do departamento de atletismo melhorar a venda de kits para calouros. Antes,
+          da atlética onde eu era presidente, para melhorar a venda de kits para calouros. Antes,
           as vendas eram feitas via Google Forms e WhatsApp. O site tinha como objetivo oferecer maior
           eficiência e melhor controle sobre o processo de vendas.`,
           skills: ["JavaScript", "Python", "Django", "Jazzmin", "HTML5", "CSS3", "Figma"],
