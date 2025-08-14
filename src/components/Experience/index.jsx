@@ -73,11 +73,10 @@ const Experience = () => {
         {
           date: "Setembro 2024 - Presente",
           title: "Assistente Jr. de Automação - LongPing - High Tech",
-          description: `Atuo no desenvolvimento e manutenção de soluções personalizadas utilizando a Power Platform, 
-          onde crio sites, aplicativos, formulários e fluxos de aprovação. Minha experiência inclui 
-          criação e manutenção de fluxos automatizados, listas e bibliotecas no SharePoint, Power Automate 
-          e Power Apps. Além disso, desenvolvo sites dinâmicos usando ReactJS e aplicativos móveis com 
-          React Native, atendendo solicitações específicas dos usuários. Implemento processos de automação que vão desde fluxos simples, como envio automático de e-mails, até processos complexos de aprovação, garantindo eficiência e eficácia nas operações. Também foco na identificação e aplicação das tecnologias mais adequadas para o desenvolvimento das soluções, assegurando usabilidade e desempenho ótimos em cada projeto. Estou comprometido em fornecer soluções que atendam às necessidades específicas dos usuários e em melhorar a experiência digital dentro da organização.`,
+          description: `Atualmente atuo no desenvolvimento de aplicações web e mobile, utilizando ReactJS e React Native para criar interfaces modernas, responsivas e de fácil manutenção.
+          No front-end, aplico Styled Components, React Hooks e React Router para gerenciar estados, navegação e estilização de forma eficiente. No back-end, desenvolvo e mantenho APIs REST com NodeJS, construindo soluções escaláveis e integradas que suportam sistemas dinâmicos e complexos.
+          Além disso, trabalho com a Power Platform, incluindo Power Apps, Power Automate e SharePoint, desenvolvendo soluções customizadas, como fluxos de aprovação automatizados, sistemas de reserva, formulários inteligentes e integração com dados corporativos, otimizando processos internos e aumentando a produtividade das equipes.
+          Meu foco é entregar soluções full-stack práticas e eficientes, que unam desenvolvimento web moderno, automação de processos e melhoria da experiência digital do usuário, sempre alinhadas às necessidades do negócio.`,
           skills: [
             "ReactJS", "JavaScript", "HTML", "CSS", "React Native", "NodeJS", 
             "SharePoint", "Power Automate", "Power Apps", "Power FX", "Power Platform"
