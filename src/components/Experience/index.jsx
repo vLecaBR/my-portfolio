@@ -71,10 +71,10 @@ const Experience = () => {
         {
           date: "Setembro 2024 - Presente",
           title: "Assistente Jr. de Automação - LongPing - High Tech",
-          description: `Atualmente atuo no desenvolvimento de aplicações web e mobile, utilizando ReactJS e React Native para criar interfaces modernas, responsivas e de fácil manutenção.
-          No front-end, aplico Styled Components, React Hooks e React Router para gerenciar estados, navegação e estilização de forma eficiente. No back-end, desenvolvo e mantenho APIs REST com NodeJS, construindo soluções escaláveis e integradas que suportam sistemas dinâmicos e complexos.
-          Além disso, trabalho com a Power Platform, incluindo Power Apps, Power Automate e SharePoint, desenvolvendo soluções customizadas, como fluxos de aprovação automatizados, sistemas de reserva, formulários inteligentes e integração com dados corporativos, otimizando processos internos e aumentando a produtividade das equipes.
-          Meu foco é entregar soluções full-stack práticas e eficientes, que unam desenvolvimento web moderno, automação de processos e melhoria da experiência digital do usuário, sempre alinhadas às necessidades do negócio.`,
+          description: `Atuo no desenvolvimento de aplicações web e mobile, criando soluções modernas e escaláveis que geram impacto direto no negócio. Utilizo ReactJS e React Native para construir interfaces responsivas e de alta performance, aplicando Styled Components, React Hooks e React Router para garantir manutenibilidade e eficiência no front-end.
+                        No back-end, desenvolvo e mantenho APIs REST com NodeJS, entregando integrações robustas que suportam sistemas dinâmicos e complexos.
+                        Além disso, faço parte do time de Digitalization & AI, onde assumimos projetos estratégicos, alguns em colaboração direta com o time da China, com foco em inovação, automação e transformação digital. Dentro desse contexto, atuo também com a Microsoft Power Platform (Power Apps, Power Automate e SharePoint), criando soluções customizadas como fluxos de aprovação automatizados, sistemas de reservas, formulários inteligentes e integrações corporativas que aumentam produtividade e otimizam processos internos.
+                        Meu foco é entregar soluções full-stack práticas, escaláveis e centradas na experiência do usuário, sempre alinhadas às necessidades do negócio e à visão de digitalização e inteligência artificial da empresa.`,
           skills: [
             "ReactJS", "React Native", "NodeJS", "REST APIs", "Styled Components", 
             "React Hooks", "React Router", "Power Platform", "Power Apps", 
