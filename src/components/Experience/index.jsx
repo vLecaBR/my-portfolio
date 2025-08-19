@@ -21,20 +21,15 @@ const Experience = () => {
       jobs: [
         {
           date: "September 2024 - Present",
-          title: "JR Automation Assistant - LongPing - High Tech",
-          description: `I currently work in web and mobile application development, using ReactJS and React Native to 
-          build modern, responsive, and maintainable user interfaces. On the front-end, I utilize Styled Components, 
-          React Hooks, and React Router for efficient state management, navigation, and styling. On the back-end, 
-          I develop and maintain REST APIs with NodeJS, creating scalable solutions that support dynamic and complex systems.
-          Additionally, I work with the Power Platform, including Power Apps, Power Automate, and SharePoint, developing 
-          custom solutions such as automated approval workflows, reservation systems, smart forms, and corporate data 
-          integrations, optimizing internal processes and boosting team productivity.
-          My focus is on delivering practical and efficient full-stack solutions that combine modern web development, 
-          process automation, and improved user experience, always aligned with business needs.`,
-          skills: [
-            "ReactJS", "JavaScript", "HTML", "CSS", "React Native", "NodeJS", 
-            "SharePoint", "Power Automate", "Power Apps", "Power FX", "Power Platform"
-          ],
+          title: "FullStack Developer | Digitalization & AI - LongPing - High Tech",
+          description: `I work on the development of web and mobile applications, creating modern and scalable solutions that generate direct business impact. I use ReactJS and React Native to build responsive, high-performance interfaces, applying Styled Components, React Hooks, and React Router to ensure maintainability and efficiency on the front end.
+                        On the back end, I develop and maintain REST APIs with NodeJS, delivering robust integrations that support dynamic and complex systems.
+                        In addition, I am part of the Digitalization & AI team, where we take on strategic projects, some in direct collaboration with the China team, with a strong focus on innovation, automation, and digital transformation. Within this context, I also work with the Microsoft Power Platform (Power Apps, Power Automate, and SharePoint), creating customized solutions such as automated approval flows, booking systems, smart forms, and corporate data integrations that increase productivity and streamline internal processes.
+                        My focus is to deliver full-stack solutions that are practical, scalable, and user-centered, always aligned with business needs and the company’s vision of digitalization and artificial intelligence.`,
+                skills: [
+          "ReactJS", "JavaScript", "HTML", "CSS", "React Native", "NodeJS",
+          "SharePoint", "Power Automate", "Power Apps", "Power FX", "Power Platform"
+        ],
         },
         {
           date: "February 2023 - September 2024",
