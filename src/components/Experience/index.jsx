@@ -26,10 +26,13 @@ const Experience = () => {
                         On the back end, I develop and maintain REST APIs with NodeJS, delivering robust integrations that support dynamic and complex systems.
                         In addition, I am part of the Digitalization & AI team, where we take on strategic projects, some in direct collaboration with the China team, with a strong focus on innovation, automation, and digital transformation. Within this context, I also work with the Microsoft Power Platform (Power Apps, Power Automate, and SharePoint), creating customized solutions such as automated approval flows, booking systems, smart forms, and corporate data integrations that increase productivity and streamline internal processes.
                         My focus is to deliver full-stack solutions that are practical, scalable, and user-centered, always aligned with business needs and the company’s vision of digitalization and artificial intelligence.`,
-                skills: [
-          "ReactJS", "JavaScript", "HTML", "CSS", "React Native", "NodeJS",
-          "SharePoint", "Power Automate", "Power Apps", "Power FX", "Power Platform"
-        ],
+          skills: [
+            "ReactJS", "React Native", "NodeJS", "REST APIs", "Styled Components", 
+            "React Hooks", "React Router", "Power Platform", "Power Apps", 
+            "Power Automate", "SharePoint", "Process Automation", 
+            "Digital Transformation", "Scalable Solutions", 
+            "FullStack Development", "UX"
+          ],
         },
         {
           date: "February 2023 - September 2024",
