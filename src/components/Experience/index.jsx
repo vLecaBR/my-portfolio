@@ -87,10 +87,10 @@ const Experience = () => {
           date: "Fevereiro 2023 - Setembro 2024",
           title: "Estagiário Helpdesk - LongPing - High Tech",
           description: `Atendimento presencial e remoto para correção de problemas como VPN, 
-          questões de senha, correções de bugs, criação de grupos e gerenciamento de usuários usando Active Directory, criação de scripts shell para execução remota, reduzindo cerca de 10 horas 
-          de trabalho manual mensalmente, monitoramento de rede e serviços internos usando Zabbix e 
-          Grafana, melhorando o monitoramento em 20%, manutenção de notebooks, desktops, monitores, 
-          responsável pela extração e disponibilização de arquivos .MSIX para instalação, controle de estoque e despacho de equipamentos, criação de sites voltados ao público interno (intranet).`,
+                        questões de senha, correções de bugs, criação de grupos e gerenciamento de usuários usando Active Directory, criação de scripts shell para execução remota, reduzindo cerca de 10 horas 
+                        de trabalho manual mensalmente, monitoramento de rede e serviços internos usando Zabbix e 
+                        Grafana, melhorando o monitoramento em 20%, manutenção de notebooks, desktops, monitores, 
+                        responsável pela extração e disponibilização de arquivos .MSIX para instalação, controle de estoque e despacho de equipamentos, criação de sites voltados ao público interno (intranet).`,
           skills: [
             "React", "HTML", "CSS", "JavaScript", "Active Directory", "Windows support", 
             "Zabbix", "Grafana", "VPN", "PowerShell", "SAP"
