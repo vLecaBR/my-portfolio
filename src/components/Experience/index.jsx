@@ -76,8 +76,11 @@ const Experience = () => {
           Além disso, trabalho com a Power Platform, incluindo Power Apps, Power Automate e SharePoint, desenvolvendo soluções customizadas, como fluxos de aprovação automatizados, sistemas de reserva, formulários inteligentes e integração com dados corporativos, otimizando processos internos e aumentando a produtividade das equipes.
           Meu foco é entregar soluções full-stack práticas e eficientes, que unam desenvolvimento web moderno, automação de processos e melhoria da experiência digital do usuário, sempre alinhadas às necessidades do negócio.`,
           skills: [
-            "ReactJS", "JavaScript", "HTML", "CSS", "React Native", "NodeJS", 
-            "SharePoint", "Power Automate", "Power Apps", "Power FX", "Power Platform"
+            "ReactJS", "React Native", "NodeJS", "REST APIs", "Styled Components", 
+            "React Hooks", "React Router", "Power Platform", "Power Apps", 
+            "Power Automate", "SharePoint", "Process Automation", 
+            "Digital Transformation", "Scalable Solutions", 
+            "FullStack Development", "UX"
           ],
         },
         {
