@@ -70,7 +70,7 @@ const Experience = () => {
       jobs: [
         {
           date: "Setembro 2024 - Presente",
-          title: "Assistente Jr. de Automação - LongPing - High Tech",
+          title: "Desenvolvedor FullStack | Digitalização & IA - LongPing - High Tech",
           description: `Atuo no desenvolvimento de aplicações web e mobile, criando soluções modernas e escaláveis que geram impacto direto no negócio. Utilizo ReactJS e React Native para construir interfaces responsivas e de alta performance, aplicando Styled Components, React Hooks e React Router para garantir manutenibilidade e eficiência no front-end.
                         No back-end, desenvolvo e mantenho APIs REST com NodeJS, entregando integrações robustas que suportam sistemas dinâmicos e complexos.
                         Além disso, faço parte do time de Digitalization & AI, onde assumimos projetos estratégicos, alguns em colaboração direta com o time da China, com foco em inovação, automação e transformação digital. Dentro desse contexto, atuo também com a Microsoft Power Platform (Power Apps, Power Automate e SharePoint), criando soluções customizadas como fluxos de aprovação automatizados, sistemas de reservas, formulários inteligentes e integrações corporativas que aumentam produtividade e otimizam processos internos.
